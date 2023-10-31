@@ -1,0 +1,150 @@
+:root{
+    --orange-color: #FF8D24;
+    --dack-blue-color: #2F505F;
+    --dark-green-color: #3894A3;
+    --white-color: #F1F1EF;
+    --light-green-color: #C7DAD4;
+}
+*,
+*::after,
+I*::before{
+    box-sizing: border-box;
+}
+/* content */
+body{
+    margin: 0;
+    font-family: "poppins";
+}
+
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* buttons */
+
+.btndark{
+    padding: 10px 30px;
+    border-radius: 9px;
+    color: #F1F1EF;
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+.btnlight {
+    padding: 10px 30px;
+    border-radius: 9px;
+    color: #3894A3;
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.btndark{
+    background: var(--dark-green-color) ;
+
+}
+
+.btnlight{
+    border-radius: 9px;
+    border: 2px solid #00A5C0;  
+    
+}
+/* hedder */
+header{
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1350px;
+    top: 2px;
+    z-index: 100%;
+}
+
+nav .logo {
+    margin : 1%;
+    color: #2D5260;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin : 2%;
+    
+}
+nav ul li a{
+    color: #2D5260;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* content section */
+
+.content-section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.welcome{
+    
+    font-size: 24px;
+    font-family: Poppins;
+    color: #003655;
+    text-align: left;
+    width: 321px;
+    height: 38px;
+        
+        
+}
+
+.content-section .left h1{
+    font-size: 60px;
+    text-align: left;
+    width: 520px;
+    height: 162px;
+    color: #3894a3;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.content-section .right img{
+    height: 550px;
+}
+.content-section .left p{
+    font-size: 18px;
+    color: #595858;
+    text-align: left;
+    display: inline-block;
+    width: 496px;
+    height: 194px;
+}
+.content-section .left {
+    width: 457px;
+}
