@@ -145,8 +145,9 @@ nav ul li a{
 .content-section .left {
     width: 457px;
 }
-/* end of heading */
 
+/* end of heading */
+/* 
 .skills-section{
     display: flex;
     
@@ -195,4 +196,439 @@ nav ul li a{
     padding: 10px 70px;
     text-decoration: none;
     margin-right: 30px;
+} */
+
+.skills1 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 76px);
+  	font-size: 45px;
+  	display: inline-block;
+  	color: #2d5260;
+  	width: 161px;
+  	height: 52px;
 }
+
+.python {
+  	position: absolute;
+    text-decoration: none;
+    color: #373737;
+    padding: 13px 10px;
+  	top: 180px;
+  	left: 116px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 20%;
+    height: 64px;
+    border-radius: 20px;
+  	background-color: #fff;
+  	border: 1px solid #999;
+  	box-sizing: border-box;
+    text-align: center;
+    
+}
+.html5 {
+    position: absolute;
+    text-decoration: none;
+    color: #373737;
+    padding: 13px 10px;
+    top: 180px;
+    left: 390px;
+    font-weight: 500;
+    display: inline-block;
+    width: 20%;
+    height: 64px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+}
+.css {
+    position: absolute;
+    text-decoration: none;
+    color: #373737;
+    padding: 13px 10px;
+    top: 180px;
+    left: 665px;
+    font-weight: 500;
+    display: inline-block;
+    width: 20%;
+    height: 64px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+}
+.javascript {
+    position: absolute;
+    text-decoration: none;
+    color: #373737;
+    padding: 13px 10px;
+    top: 180px;
+  	left: 940px;
+    font-weight: 500;
+    display: inline-block;
+    width: 20%;
+    height: 64px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+}
+.php {
+  	
+    position: absolute;
+    text-decoration: none;
+    color: #373737;
+    padding: 13px 10px;
+    top: 260px;
+    left: 116px;
+    font-weight: 500;
+    display: inline-block;
+    width: 20%;
+    height: 64px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+}
+.react {
+    position: absolute;
+    text-decoration: none;
+    color: #373737;
+    padding: 13px 10px;
+    top: 425px;
+    left: 116px;
+    font-weight: 500;
+    display: inline-block;
+    width: 20%;
+    height: 64px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+}
+.bootstrap {
+  	
+    position: absolute;
+    text-decoration: none;
+    color: #373737;
+    padding: 13px 10px;
+    top: 425px;
+    left: 390px;
+    font-weight: 500;
+    display: inline-block;
+    width: 20%;
+    height: 64px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.tailwindcss {
+    position: absolute;
+    text-decoration: none;
+    color: #373737;
+    padding: 13px 10px;
+    top: 425px;
+    left: 665px;
+    font-weight: 500;
+    display: inline-block;
+    width: 20%;
+    height: 64px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.django {
+      position: absolute;
+      text-decoration: none;
+      color: #373737;
+      padding: 13px 10px;
+      top: 585px;
+      left: 116px;
+      font-weight: 500;
+      display: inline-block;
+      width: 20%;
+      height: 64px;
+      border-radius: 20px;
+      background-color: #fff;
+      border: 1px solid #999;
+      box-sizing: border-box;
+      text-align: center;
+}
+.laravel {
+      position: absolute;
+      text-decoration: none;
+      color: #373737;
+      padding: 13px 10px;
+      top: 585px;
+      left: 390px;
+      font-weight: 500;
+      display: inline-block;
+      width: 20%;
+      height: 64px;
+      border-radius: 20px;
+      background-color: #fff;
+      border: 1px solid #999;
+      box-sizing: border-box;
+      text-align: center;
+}
+
+.vs-code {
+      position: absolute;
+      text-decoration: none;
+      color: #373737;
+      padding: 13px 10px;
+      top: 745px;
+      left: 116px;
+      font-weight: 500;
+      display: inline-block;
+      width: 20%;
+      height: 64px;
+      border-radius: 20px;
+      background-color: #fff;
+      border: 1px solid #999;
+      box-sizing: border-box;
+      text-align: center;
+}
+.figma {
+      position: absolute;
+      text-decoration: none;
+      color: #373737;
+      padding: 13px 10px;
+      top: 745px;
+      left: 390px;
+      font-weight: 500;
+      display: inline-block;
+      width: 20%;
+      height: 64px;
+      border-radius: 20px;
+      background-color: #fff;
+      border: 1px solid #999;
+      box-sizing: border-box;
+      text-align: center;
+}
+.pgadmin {
+    position: absolute;
+    text-decoration: none;
+    color: #373737;
+    padding: 13px 10px;
+    top: 745px;
+    left: 665px;
+    font-weight: 500;
+    display: inline-block;
+    width: 20%;
+    height: 64px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+  
+}
+.github {
+      position: absolute;
+      text-decoration: none;
+      color: #373737;
+      padding: 13px 10px;
+      top: 825px;
+      left: 116px;
+      font-weight: 500;
+      display: inline-block;
+      width: 20%;
+      height: 64px;
+      border-radius: 20px;
+      background-color: #fff;
+      border: 1px solid #999;
+      box-sizing: border-box;
+      text-align: center;
+    
+}
+
+.git {
+      position: absolute;
+      text-decoration: none;
+      color: #373737;
+      padding: 13px 10px;
+      top: 745px;
+      left: 940px;
+      font-weight: 500;
+      display: inline-block;
+      width: 20%;
+      height: 64px;
+      border-radius: 20px;
+      background-color: #fff;
+      border: 1px solid #999;
+      box-sizing: border-box;
+      text-align: center;
+}
+.language {
+  	position: absolute;
+  	top: 112px;
+  	left: 0px;
+  	font-size: 28px;
+  	font-weight: 600;
+  	color: #2d5260;
+  	display: inline-block;
+  	width: 178px;
+  	height: 36px;
+}
+.frontend-frameworks {
+  	position: absolute;
+  	top: 366px;
+  	left: 0px;
+  	font-size: 28px;
+  	font-weight: 600;
+  	color: #2d5260;
+  	display: inline-block;
+  	width: 329px;
+  	height: 36px;
+}
+.backend-frameworks {
+  	position: absolute;
+  	top: 525px;
+  	left: 0px;
+  	font-size: 28px;
+  	font-weight: 600;
+  	color: #2d5260;
+  	display: inline-block;
+  	width: 329px;
+  	height: 36px;
+}
+.tools {
+  	position: absolute;
+  	top: 687px;
+  	left: 0px;
+  	font-size: 28px;
+  	font-weight: 600;
+  	color: #2d5260;
+  	display: inline-block;
+  	width: 80px;
+  	height: 36px;
+}
+.skills {
+  	position: relative;
+  	width: 100%;
+  	height: 901px;
+  	text-align: left;
+  	font-size: 24px;
+  	color: #3e3e3e;
+  	font-family: Poppins;
+}
+/* end of skill form */
+
+.project {
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 901px;
+    text-align: left;
+    font-size: 24px;
+    color: #3e3e3e;
+    font-family: Poppins;
+}
+
+.projects1 {
+    position: absolute;
+  	
+  	left: calc(50% - 76px);
+  	font-size: 45px;
+  	display: inline-block;
+  	color: #2d5260;
+  	width: 161px;
+  	height: 52px;
+    /* position: absolute;
+  	top: 0px;
+  	left: calc(50% - 76px);
+  	font-size: 45px;
+  	display: inline-block;
+  	color: #2d5260;
+  	width: 161px;
+  	height: 52px; */
+    }
+.projects-card1 {
+    top: 150px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    width: 40%;
+    height: 580px;
+    }
+
+.projects-card2 {
+        top: -430px;
+        left: 60%;
+        position: relative;
+        border-radius: 30px;
+        background-color: #fff;
+        box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+        border: 1px solid #d6d6d6;
+        box-sizing: border-box;
+        width: 40%;
+        height: 580px;
+        }
+    
+.myproject1 {
+    position: inherit;
+    border-radius: 15px;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+    object-fit: fill;
+    width: 95%;
+}
+    
+.card-title {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    
+    color: #262626;
+    text-align: left;
+    display: inline-block;
+    width: 250px;
+    height: 32px;
+    }
+.aipdesc{
+    position: inherit;
+    padding-top: 20px;
+    left: 24px;
+    display: inline-block;
+    width: 470px;
+    height: 120px;
+}
+.explorebtn {
+    position: absolute;
+    width: 93.80%;
+    top: 90%;
+    right: 0%;
+    left: 3%;
+    border-radius: 30px;
+    background-color: #00a5c0;
+    height: 43px;
+    }
+.card1-btn {
+    position: absolute;
+    top: calc(40% - 13.5px);
+    left: calc(45% - 65px);
+    font-weight: 600;
+    display: inline-block;
+    width: 200px;
+    height: 27px;
+    color: #fff;
+            }
