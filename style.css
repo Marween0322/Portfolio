@@ -155,56 +155,7 @@ nav.scrolled {
 }
 
 /* end of heading */
-/* 
-.skills-section{
-    display: flex;
-    
-}
 
-
-
-.skills {
-    padding-left: 560px;
-    width: 161px;
-    height: 52px;
-    flex-shrink: 0;
-    color: #2D5260;
-    font-family: Poppins;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    
-}
-
-.Skillstitle .h4{
-    
-    position: relative;
-    font-size: 28px;
-    font-weight: 600;
-    font-family: Poppins;
-    color: #2d5260;
-    text-align: left;
-    display: inline-block;
-    width: 329px;
-    height: 36px;
-}
-
-
-
-.Skillstitle .lg {
-    
-    background: #ffffff00;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: #999999;
-    border-width: 1px;
-    color: #3e3e3e;
-    font: 500 24px 'Poppins', sans-serif;
-    padding: 10px 70px;
-    text-decoration: none;
-    margin-right: 30px;
-} */
 
 .skills1 {
   	position: absolute;
@@ -556,14 +507,7 @@ nav.scrolled {
   	color: #2d5260;
   	width: 161px;
   	height: 52px;
-    /* position: absolute;
-  	top: 0px;
-  	left: calc(50% - 76px);
-  	font-size: 45px;
-  	display: inline-block;
-  	color: #2d5260;
-  	width: 161px;
-  	height: 52px; */
+    
     }
 .projects-card1 {
     top: 150px;
