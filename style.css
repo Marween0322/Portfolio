@@ -17,7 +17,7 @@ body{
 }
 
 .wrapper{
-    max-width: 1300px;
+    width: 69%;
     margin: 0 auto;
 }
 
@@ -60,43 +60,51 @@ body{
 }
 
 
+/* Add default styles for your navbar */
 nav {
+    background-color: transparent;
+    position: fixed;
+    width: 86%; 
+    top: 0px;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 1350px;
-    top: 2px;
-    z-index: 100%;
+    transition: background-color 0.3s;
+    padding-left: 15%;
+}
+nav .logo {
+    color: #5abee2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 1%;
 }
 
-nav .logo {
-    margin : 1%;
-    color: #2D5260;
-    font-family: Poppins;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    
-}
 nav ul {
     display: flex;
     align-items: center;
     gap: 60px;
     list-style: none;
-    margin : 2%;
-    
+    margin: 2%;
+    padding-right: 18%;
 }
-nav ul li a{
-    color: #2D5260;
-    font-family: Poppins;
+
+nav ul li a {
+    color: #5abee2;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-decoration: none;
 }
+
+/* Add a background color when scrolling */
+nav.scrolled {
+    background-color: #333333c9; /* Change this to your desired background color */
+    padding-left: 15%;
+}
+
+
 
 /* content section */
 
@@ -566,11 +574,11 @@ nav ul li a{
     border: 1px solid #d6d6d6;
     box-sizing: border-box;
     width: 40%;
-    height: 580px;
+    height: 630px;
     }
 
 .projects-card2 {
-        top: -430px;
+        top: -480px;
         left: 60%;
         position: relative;
         border-radius: 30px;
@@ -579,7 +587,7 @@ nav ul li a{
         border: 1px solid #d6d6d6;
         box-sizing: border-box;
         width: 40%;
-        height: 580px;
+        height: 630px;
         }
     
 .myproject1 {
@@ -590,6 +598,15 @@ nav ul li a{
     object-fit: fill;
     width: 95%;
 }
+.myproject2 {
+    position: inherit;
+    border-radius: 15px;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+    object-fit: fill;
+    width: 95%;
+    height: 38%;
+}
     
 .card-title {
     position: absolute;
@@ -597,21 +614,20 @@ nav ul li a{
     padding-left: 25px;
     font-size: 24px;
     font-weight: 600;
-    
     color: #262626;
     text-align: left;
     display: inline-block;
     width: 250px;
     height: 32px;
     }
-.aipdesc{
+.aipdesc {
     position: inherit;
-    padding-top: 20px;
-    left: 24px;
+    padding: 20px; /* Add padding to create spacing within the card */
     display: inline-block;
-    width: 470px;
-    height: 120px;
-}
+    width: 90%; /* Set the width to 100% to ensure it fits within the card */
+    text-align: left;
+    height: auto; /* Allow the height to adjust based on content */
+    }
 .explorebtn {
     position: absolute;
     width: 93.80%;
@@ -631,4 +647,58 @@ nav ul li a{
     width: 200px;
     height: 27px;
     color: #fff;
+            }
+
+            @media screen and (max-width: 1024px) {
+                nav {
+                    width: 100%; /* Adjust as needed */
+                    padding-left: 10%; /* Adjust padding for the logo */
+                }
+            
+                .content-section {
+                    flex-direction: column;
+                    padding: 10px;
+                }
+            
+                .content-section .left, .content-section .right {
+                    width: 80%;
+                    text-align: center;
+                    padding: 20px 0;
+                    padding-top: 20%;
+                }
+            
+                .content-section .right img {
+                    height: auto;
+                    max-width: 100%;
+                    
+                }
+                .skills-section{
+                    padding-top: 50%;
+                }
+            }
+            
+            /* Media query for phones (e.g., iPhone) */
+            @media screen and (max-width: 768px) {
+                nav {
+                    padding-left: 5%; /* Adjust padding for the logo */
+                }
+                .content-section {
+                    flex-direction: column;
+                    padding: 10px;
+                }
+            
+                .content-section .left h1 {
+                    font-size: 30px;
+                }
+            
+                .content-section .left p {
+                    font-size: 16px;
+                }
+            
+                .content-section .right img {
+                    height: auto;
+                    max-width: 100%;
+                }
+            
+                /* Adjust other styles as needed for smaller screens */
             }
