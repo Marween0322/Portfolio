@@ -767,34 +767,39 @@ display: flex;
                     margin-left: -80px;
                 }
                 .content-section .left h1 {
-                    font-size: 55px;
+                    display: flex;
+                    font-size: 42px;
+                    width: 350px;
+                    height: 162px;
                 }
                 .content-section .left p {
+                    margin-top: -30px;
                     font-size: 16px;
+                    width: 380px;
                 }
                 .btndark {
-                margin-top: -40px;
-                margin-left: -30px;
-                font-size: 90%;
+                margin-top: 20px;
+                margin-left: -10px;
+                font-size: 70%;
                 padding: 13px 20px;
                 width: 22%;
                 height: 20px;
                 }
                 .btnlight{
-                    margin-top: -40px;
-                    margin-left: -30px;
-                    font-size: 90%;
-                    padding: 13px 20px;
-                    width: 40%;
-                    height: 20px;
+                margin-top: 20px;
+                margin-left: -30px;
+                font-size: 70%;
+                padding: 13px 20px;
+                width: 40%;
+                height: 20px;
                 }
                 .content-section .right img {
                     height: auto;
-                    max-width: 120%;
+                    max-width: 140%;
                     padding-left: 10%;
                 }
                 .skills-section{
-                    margin-left: -10%;
+                    margin-left: -15%;
                 }
                 .python, 
                 .html5, 
@@ -811,8 +816,9 @@ display: flex;
                 .pgadmin, 
                 .git, 
                 .github{
-                font-size: 50%;
-                padding: 18px 10px;
+                font-size: 40%;
+                padding: 20px 5px;
+                
                 width: 22%;
                 height: 55px;
             }
