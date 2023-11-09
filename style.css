@@ -761,7 +761,7 @@ display: flex;
             }
             
             /* Media query for phones (e.g., iPhone) */
-            @media only screen and (max-width: 450px) {
+            @media only screen and (max-width: 480px) {
                 nav {
                     display: none; /* Add this line */
                 }
@@ -855,20 +855,20 @@ display: flex;
             .javascript
             {
                 margin-top: 35px;
-                margin-left: -186px;
+                margin-left: -69%;
             }
             .git{
                 margin-top: -165px;
-                margin-left: -187px;
+                margin-left: -69%;
                 
             }
             .php{
                 margin-top: -46px;
-                margin-left: 87px;
+                margin-left: 32%;
             }
             .github{
                 margin-top: -246px;
-                margin-left: 88px;
+                margin-left: 32%;
             }
 
             .language{
