@@ -1016,6 +1016,9 @@ display: flex;
                 }
                 .skills-section
                 {
-                    margin-top: 140%;
+                    margin-top: 10%;
+                }
+                .content-section .left .btndark{
+                    margin-left: -80px;
                 }
             }
