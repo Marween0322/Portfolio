@@ -1003,7 +1003,13 @@ display: flex;
         
                 /* Adjust other styles as needed for smaller screens */
             }
-            @media only screen and (max-width: 480px) {
+            @media only screen and (max-width: 414px) {
+                .content-section .right img{
+                    width: 100%;
+                    padding-left: 160%;
+                }
+            }
+            @media only screen and (max-width: 390px) {
                 .content-section .right img{
                     width: 90%;
                     padding-left: 170%;
