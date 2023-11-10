@@ -1014,4 +1014,8 @@ display: flex;
                     width: 90%;
                     padding-left: 170%;
                 }
+                .skills-section
+                {
+                    margin-top: 140%;
+                }
             }
