@@ -101,7 +101,7 @@ nav ul li a {
 /* Add a background color when scrolling */
 nav.scrolled {
     background-color: #333333c9; /* Change this to your desired background color */
-    padding-left: 15%;
+    padding-left: -50%;
 }
 /* content section */
 
@@ -663,22 +663,48 @@ display: flex;
             nav.mobile-nav{
                 display: none;
             }
-
+            @media only screen and (max-width: 1440px) {
+                .content-section{
+                    margin-top: -180px;
+                }
+                .content-section .right img{
+                    margin-left: 90px;
+                }
+            }
             @media only screen and (max-width: 1024px) {
                 nav {
-                    width: 100%; /* Adjust as needed */
-                    padding-left: 15%; /* Adjust padding for the logo */
+                    top: 0px;
+                    width: 80%; /* Adjust as needed */
+                    padding-left: 7%; /* Adjust padding for the logo */
                 }
+                
                 nav.mobile-nav{
                     display: none;
                 }
+                /* nav.scrolled.logo {
+                    padding-left: 50px;
+                } */
                 
                 .skills-section {
-                    margin-left: -5%;
+                    margin-left: -15%;
                 }
                 .content-section {
-                    flex-direction: column;
                     padding: 10px;
+                    margin-top: -350px;
+                    margin-left: 0px;
+                }
+                .content-section .left p {
+                    height: auto;
+                    max-width: 100%;
+                    margin-top: 2%;
+                    padding-right: 15%;
+                    
+                }
+                .btndark{
+                    margin-left: -30%;  
+                }
+                .btnlight{
+                    margin-left: -20px;  
                 }
             
                 .content-section .left, .content-section .right {
@@ -687,12 +713,13 @@ display: flex;
                     padding: 20px 0;
                     padding-top: 20%;
                 }
+                
             
                 .content-section .right img {
                     height: auto;
-                    max-width: 100%;
-                    margin-top: -15%;
-                    padding-right: 5%;
+                    margin-top: 280%;
+                    margin-left: -230%;
+                    
                     
                 }
                 .skills-section{
@@ -739,8 +766,10 @@ display: flex;
             .frontend-frameworks, .backend-frameworks, .tools{
                 margin-top: -40px;
             }
-            .project-section{
-                margin-top: -40%;
+            
+            .project{
+                margin-top: -120px;
+                margin-left: -100px;
             }
             .myproject1{
                 margin-top: 0%;
@@ -760,6 +789,71 @@ display: flex;
             }
             }
             
+            @media only screen and (max-width: 976px) {
+                .project{
+                    margin-left: -70px;
+                }
+            }
+
+            @media only screen and (max-width: 768px) {
+                nav{
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    width: 100%;
+                }
+                nav.mobile{
+                    display: none;
+                }
+                nav.mobile.scrolled{
+                    display: none;
+                }
+                nav.scrolled {
+                    height: 8%;
+                    width: 100%;
+                    margin-top: -1%;
+                    margin-left: -1%;
+                    padding-left: 9%;
+                }
+                .content-section .left a{
+                    margin-left: -1px;
+                }
+                .project{
+                    margin-left: -70px;
+                }
+                .content-section .right img {
+                    margin-left: -500px;
+                    margin-top: 1150px;
+                }
+                
+                
+                .skills-section{
+                    padding-left: 5%;
+                }
+                .python, 
+                .html5, 
+                .css, 
+                .javascript, 
+                .php, 
+                .react, 
+                .bootstrap, 
+                .tailwindcss,
+                .django, 
+                .laravel,
+                .vs-code, 
+                .figma, 
+                .pgadmin, 
+                .git, 
+                .github{
+                font-size: 65%;
+                padding: 16px 8px; 
+            }
+            .project{
+                margin-left: -10px;
+            }
+            }
+
+
+
             /* Media query for phones (e.g., iPhone) */
             @media only screen and (max-width: 480px) {
                 nav {
@@ -817,6 +911,7 @@ display: flex;
                 }
                 .skills-section{
                     margin-left: -15%;
+                    margin-top: 20%;
                 }
                 .python, 
                 .html5, 
