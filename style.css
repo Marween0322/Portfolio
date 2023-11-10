@@ -861,21 +861,26 @@ display: flex;
                 }
                 nav.mobile-nav{
                     display: flex;
-                    padding-left: 20px;
+                    padding-left: 25px;
                     padding-top: 10px;
                 }
                 nav .menu-icon{
                     padding-right: 15%;
                     
                 }
-                nav.mobile-nav.scrolled {
-                    background-color: #333333c9; /* Change this to your desired background color */
-                    padding-left:8px 100px;
+                nav.scrolled {
+                    height: 12.5%;
+                    width: 100%;
+                    margin-top: -1%;
+                    margin-left: -1%;
+                    padding-left: 8%;
                 }
+                
                 .content-section {
                     margin-top: 30px;
                     flex-direction: column;
                     margin-left: -80px;
+                    width: 140%;
                 }
                 .content-section .left h1 {
                     display: flex;
@@ -886,32 +891,35 @@ display: flex;
                 .content-section .left p {
                     margin-top: -30px;
                     font-size: 16px;
-                    width: 380px;
+                    width: 500px;
+                }
+                .content-section .left .btndark{
+                    margin-left: -35%;
+                }
+                .content-section .left .btnlight{
+                    margin-left: -5%;
                 }
                 .btndark {
-                margin-top: 20px;
-                margin-left: -10px;
                 font-size: 70%;
                 padding: 13px 20px;
-                width: 22%;
-                height: 20px;
+                
                 }
                 .btnlight{
-                margin-top: 20px;
-                margin-left: -30px;
-                font-size: 70%;
-                padding: 13px 20px;
-                width: 40%;
-                height: 20px;
+                    font-size: 70%;
+                    padding: 13px 20px;
                 }
                 .content-section .right img {
                     height: auto;
-                    max-width: 140%;
-                    padding-left: 5%;
+                    max-width: 100%;
+                    padding-left: 130%;
+                    margin-top: -20%;
                 }
                 .skills-section{
                     margin-left: -15%;
-                    margin-top: 20%;
+                    margin-top: 50%;
+                }
+                .skills1{
+                    margin-left: -25px;
                 }
                 .python, 
                 .html5, 
