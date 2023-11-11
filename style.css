@@ -24,7 +24,8 @@ body{
 
 /* buttons */
 
-.btndark{
+.btndark {
+    background: var(--dark-green-color) ;
     padding: 10px 30px;
     border-radius: 9px;
     color: #F1F1EF;
@@ -35,6 +36,20 @@ body{
     line-height: normal;
     text-decoration: none;
     margin-right: 30px;
+    transition: background-color 0.3s, color 0.3s; /* Add a transition for smooth hover effect */
+}
+.btndark:hover {
+    padding: 10px 30px;
+    border: 2px solid #00A5C0;  
+    color: #3895a3;
+    background-color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none; /* Change text color on hover */
+    cursor: pointer; /* Add a pointer cursor on hover for better feedback */
     
 }
 .btnlight {
@@ -49,10 +64,7 @@ body{
     text-decoration: none;
 }
 
-.btndark{
-    background: var(--dark-green-color) ;
 
-}
 
 .btnlight{
     border-radius: 9px;
@@ -97,7 +109,24 @@ nav ul li a {
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
+    position: relative; /* Add this line to position the pseudo-element */
 }
+
+nav ul li a::after { /* Add a pseudo-element for the underline effect */
+    content: "";
+    position: absolute;
+    width: 0; /* Initially set to 0 width */
+    height: 2px; /* Adjust the underline thickness if needed */
+    bottom: 0;
+    left: 0;
+    background-color: #00a5c0;
+    transition: width 0.3s ease; /* Add a smooth transition for the width change */
+}
+
+nav ul li a:hover::after {
+    width: 100%; /* Increase the width on hover to create the underline effect */
+}
+
 
 /* Add a background color when scrolling */
 nav.scrolled {
