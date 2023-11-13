@@ -689,6 +689,9 @@ nav.scrolled {
                     margin-left: -70px;
                     width: 80%;
                 }
+                .skills-section img{
+                    margin-top: 1px;
+                }
             }
             @media only screen and (max-width: 1024px) {
                 nav {
@@ -747,6 +750,9 @@ nav.scrolled {
                     margin-top: 100px;
                     margin-left: -2%;
                 }
+                .skills-section img{
+                    width: 15%;
+                }
                 .skills1{
                     margin-left: -10px;
                 }
@@ -768,7 +774,6 @@ nav.scrolled {
                 .django,
                 .laravel,
                 .vs-code,
-                .figma,
                 .pgadmin,
                 .github,
                 .git{
@@ -782,7 +787,7 @@ nav.scrolled {
             .php{
                 font-size: 18px;
                 padding: 13px 20px;
-                width: 22%;
+                width: 25%;
                 height: 55px;
             }
             .php {
@@ -792,26 +797,42 @@ nav.scrolled {
                 margin-top: -40px;
                 font-size: 18px;
                 padding: 13px 20px;
-                width: 22%;
+                width: 25%;
                 height: 55px;
             }
             .django, .laravel{
                 margin-top: -40px;
                 font-size: 18px;
                 padding: 13px 20px;
-                width: 22%;
+                width: 25%;
                 height: 55px;
             }
             .vs-code, .figma, .pgadmin, .git, .github {
                 margin-top: -40px;
                 font-size: 18px;
                 padding: 13px 20px;
-                width: 22%;
+                width: 25%;
                 height: 55px;
             }
             .github {
                 margin-top: -60px;
             }
+            .html5,
+            .bootstrap,
+            .laravel,
+            .figma{
+                margin-left: -30px;
+            }
+            .css,
+            .tailwindcss,
+            .pgadmin{
+                margin-left: -10px;
+            }
+            .javascript,
+            .git{
+                margin-left: 10px;
+            }
+            
             .frontend-frameworks, .backend-frameworks, .tools{
                 margin-top: -40px;
             }
@@ -855,8 +876,56 @@ nav.scrolled {
                 .projects-card1,
                 .projects-card2{
                 width: 110%;
-                height: 60%;
+                height: 65%;
                 }
+            .python, 
+            .html5, 
+            .css, 
+            .javascript, 
+            .php{
+                font-size: 16px;
+                padding: 13px 25px;
+                width: 27%;
+                height: 55px;
+            }
+            .react, 
+            .bootstrap, 
+            .tailwindcss{
+                margin-top: -40px;
+                font-size: 16px;
+                padding: 13px 20px;
+                width: 27%;
+                height: 55px;
+            }
+            .django, .laravel{
+                margin-top: -40px;
+                font-size: 16px;
+                padding: 13px 20px;
+                width: 27%;
+                height: 55px;
+            }
+            .vs-code, .figma, .pgadmin, .git, .github {
+                margin-top: -40px;
+                font-size: 18px;
+                padding: 13px 20px;
+                width: 27%;
+                height: 55px;
+            }
+            .html5,
+            .bootstrap,
+            .laravel,
+            .figma{
+                margin-left: -15px;
+            }
+            .css,
+            .tailwindcss,
+            .pgadmin{
+                margin-left: 20px;
+            }
+            .javascript,
+            .git{
+                margin-left: 55px;
+            }
             }
 
             @media only screen and (max-width: 768px) {
@@ -869,8 +938,8 @@ nav.scrolled {
                 .content-section{
                     margin-left: -1%;
                 }
-                .content-section .left a{
-                    margin-left: -1px;
+                .content-section .left .btndark{
+                    margin-left: -180px;
                 }
                 
                 .content-section .right img {
@@ -882,8 +951,11 @@ nav.scrolled {
                 .skills-section{
                     padding-left: 2%;
                 }
+                .skills{
+                    margin-left: -50px;
+                }
                 .skills1{
-                    margin-left: -5%;
+                    margin-left: 3%;
                 }
                 .python, 
                 .html5, 
@@ -907,6 +979,11 @@ nav.scrolled {
                     margin-left: 2%;
                     width: 60%;
                 }
+                .projects-card1,
+                .projects-card2{
+                width: 110%;
+                height: 70%;
+                }
             
             }
 
@@ -923,11 +1000,11 @@ nav.scrolled {
                 nav.mobile-nav{
                     display: flex;
                     width: 90%;
-                    margin-left: 1%;
+                    margin-left: -1%;
                     
                 }
                 nav .menu-icon{
-                    padding-right: 20%;
+                    padding-right: 15%;
                     
                 }
                 
@@ -971,10 +1048,13 @@ nav.scrolled {
                 }
                 .skills-section{
                     margin-left: -8%;
-                    margin-top: -30%;
+                    margin-top: -20%;
+                }
+                .skills{
+                    margin-left: -10px;
                 }
                 .skills1{
-                    margin-left: -25px;
+                    margin-left: -10px;
                 }
                 .python, 
                 .html5, 
@@ -1018,20 +1098,20 @@ nav.scrolled {
             .javascript
             {
                 margin-top: 35px;
-                margin-left: -69%;
+                margin-left: -69.5%;
             }
             .git{
                 margin-top: -165px;
-                margin-left: -69%;
+                margin-left: -69.5%;
                 
             }
             .php{
                 margin-top: -46px;
-                margin-left: 31%;
+                margin-left: 30.5%;
             }
             .github{
                 margin-top: -246px;
-                margin-left: 31%;
+                margin-left: 30.5%;
             }
 
             .language{
@@ -1062,9 +1142,8 @@ nav.scrolled {
             }
             .project{
                 margin-top: -50%;
-                margin-left: -3%;
-                width: 70%;
-                height: 90%;
+                margin-left: -2%;
+                
             }
             .card-title{
                 font-size: 90%;
@@ -1078,7 +1157,16 @@ nav.scrolled {
             .explorebtn{
                 margin-top: -10px;
             }
-            
+            .projects-card1{
+                margin-left: 12px;
+                width: 110%;
+                height: 60%;
+                }
+            .projects-card2{
+                margin-left: -160px;
+                width: 110%;
+                height: 60%;
+            }
         
                 /* Adjust other styles as needed for smaller screens */
             }
@@ -1138,6 +1226,12 @@ nav.scrolled {
                     font-size: 15px;
                     margin-left: -8px;
                 }
+                .projects-card1,
+                .projects-card2{
+                width: 110%;
+                height: 50%;
+                }
+                
 
             }
             @media only screen and (max-width: 390px) {
@@ -1161,4 +1255,60 @@ nav.scrolled {
                 .project{
                     margin-top: -30%;
                 }
+                .javascript{
+                    margin-left: -190px;
+                }
+                .git{
+                    margin-left: -190px;
+                }
+                .python, 
+                .html5, 
+                .css, 
+                .javascript, 
+                .php, 
+                .react, 
+                .bootstrap, 
+                .tailwindcss,
+                .django, 
+                .laravel,
+                .vs-code, 
+                .figma, 
+                .pgadmin, 
+                .git, 
+                .github{
+                font-size: 40%;
+                padding: 15px 5px;
+                padding-top: 8px;
+                width: 35%;
+                height: 30px;
+            }
+            .html5,
+            .bootstrap,
+            .laravel,
+            .figma
+            {
+                margin-left: 35px;
+            }
+            .php,
+            .github{
+                margin-left: 97px;
+            }
+            .css,
+            .tailwindcss,
+            .pgadmin{
+                margin-left: 72px;
+
+            }
+            .projects-card1,
+            .projects-card2{
+                width: 140%;
+                height: 50%;
+                }
+                .projects-card1{
+                    margin-left: -45px;
+                }
+                .projects-card2{
+                    margin-left: -185px;
+                }
+
                 }
