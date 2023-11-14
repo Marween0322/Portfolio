@@ -29,7 +29,7 @@ body{
 /* buttons */
 
 .btndark {
-    background: var(--dark-green-color) ;
+    background: var(--dark-green-color);
     padding: 10px 30px;
     border-radius: 9px;
     color: #F1F1EF;
@@ -40,11 +40,12 @@ body{
     line-height: normal;
     text-decoration: none;
     margin-right: 30px;
-    transition: background-color 0.3s, color 0.3s; /* Add a transition for smooth hover effect */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Add box-shadow to the transition */
 }
+
 .btndark:hover {
     padding: 10px 30px;
-    border: 2px solid #00A5C0;  
+    border: 2px solid #00A5C0;
     color: #3895a3;
     background-color: #ffffff;
     display: inline-block;
@@ -52,20 +53,38 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-decoration: none; /* Change text color on hover */
-    cursor: pointer; /* Add a pointer cursor on hover for better feedback */
-    
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: -8px 8px 0 0 #2F505F; /* Add box-shadow on hover */
 }
+
 .btnlight {
+    background: var(--dark-green-color);
     padding: 10px 30px;
     border-radius: 9px;
-    color: #3894A3;
+    color: #F1F1EF;
     display: inline-block;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
+    margin-right: 30px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.btnlight:hover {
+    padding: 10px 30px;
+    border: 2px solid #00A5C0;
+    color: #3895a3;
+    background-color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: -8px 8px 0 0 #2F505F; /* Add box-shadow on hover */
 }
 
 
