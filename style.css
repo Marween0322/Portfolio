@@ -12,8 +12,12 @@ I*::before{
 }
 /* content */
 body{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
     margin: 0;
     font-family: "poppins";
+    height: 100vh;
 }
 
 .wrapper{
@@ -91,7 +95,7 @@ nav .logo {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 900;
-    padding-left: 1%;
+    margin-left: -50px;
 }
 
 nav ul {
@@ -157,6 +161,11 @@ nav.scrolled {
     height: 38px;
         
         
+}
+
+.content-section .right{
+    margin-left: 54%;
+    padding-left: -100%;
 }
 
 .content-section .left h1{
@@ -230,7 +239,7 @@ nav.scrolled {
 .figma,
 .pgadmin,
 .github,
-.git,{
+.git{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -669,17 +678,17 @@ nav.scrolled {
             }
             @media only screen and (max-width: 1440px) {
                 nav{
-                    margin-left: -40px;
+                    margin-left: -280px;
                 }
                 nav .logo{
-                    margin-left: -60px;
+                    margin-left: 150px;
                 }
                 .content-section{
                     margin-top: -30px;
                     margin-left: -80px;
                 }
                 .content-section .right img{
-                    margin-left: -60%;
+                    margin-left: -115%;
                     margin-top: 50px;
                 }
                 .skills-section{
@@ -696,8 +705,8 @@ nav.scrolled {
             @media only screen and (max-width: 1024px) {
                 nav {
                     top: 0px;
-                    width: 70%; /* Adjust as needed */
-                    padding-left: 20%; /* Adjust padding for the logo */
+                    width: 50%; /* Adjust as needed */
+                    padding-left: 28%; /* Adjust padding for the logo */
                 }
                 nav .logo {
                     margin-left: -15%;
@@ -713,7 +722,7 @@ nav.scrolled {
                 
                 .content-section {
                     padding: 10px;
-                    margin-top: -170%;
+                    margin-top: -10%;
                     margin-left: 100px;
                 }
                 .content-section .left p {
@@ -740,8 +749,8 @@ nav.scrolled {
             
                 .content-section .right img {
                     height: auto;
-                    margin-top: 220%;
-                    margin-left: -215%;
+                    margin-top: 250%;
+                    margin-left: -490%;
                     
                     
                 }
@@ -865,7 +874,7 @@ nav.scrolled {
                     margin-left: 100px;
                 }
                 .content-section .right img{
-                    margin-left: -230%;
+                    margin-left: -480%;
                 }
                 .project{
                     margin-left: 80px;
@@ -929,11 +938,12 @@ nav.scrolled {
             }
 
             @media only screen and (max-width: 768px) {
+                
                nav{
-                width: 65%;
+                width: 50%;
                }
                nav .logo {
-                margin-left: -18%;
+                margin-left: -15%;
                }
                 .content-section{
                     margin-left: -1%;
@@ -943,7 +953,7 @@ nav.scrolled {
                 }
                 
                 .content-section .right img {
-                    margin-left: -225%;
+                    margin-left: -420%;
                     margin-top: 250%;
                 }
                 
@@ -999,8 +1009,8 @@ nav.scrolled {
                 }
                 nav.mobile-nav{
                     display: flex;
-                    width: 90%;
-                    margin-left: -1%;
+                    width: 80%;
+                    margin-left: -13%;
                     
                 }
                 nav .menu-icon{
@@ -1009,7 +1019,7 @@ nav.scrolled {
                 }
                 
                 .content-section {
-                    margin-top: -160%;
+                    margin-top: 5%;
                     flex-direction: column;
                     margin-left: -90px;
                     width: 100%;
@@ -1043,7 +1053,7 @@ nav.scrolled {
                 .content-section .right img {
                     height: auto;
                     max-width: 80%;
-                    padding-left: 225%;
+                    padding-left: 350%;
                     margin-top: -20%;
                 }
                 .skills-section{
@@ -1191,8 +1201,8 @@ nav.scrolled {
                 }
                 nav.mobile-nav{
                     display: flex;
-                    width: 90%;
-                    margin-left: -2%;
+                    width: 80%;
+                    margin-left: -13%;
                 }
                 nav .menu-icon{
                     padding-right: 15%;
@@ -1210,7 +1220,7 @@ nav.scrolled {
                 }
                 .content-section .right img{
                     width: 90%;
-                    padding-left: 230%;
+                    padding-left: 355%;
                 }
                 .php,
                 .github{
@@ -1246,7 +1256,7 @@ nav.scrolled {
                 
 
             }
-            @media only screen and (max-width: 390px) {
+            @media (width <= 300px) {
                 
                 .content-section .right img{
                     width: 90%;
