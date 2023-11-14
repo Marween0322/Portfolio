@@ -174,7 +174,7 @@ nav.scrolled {
 .content-section .right img{
     height: 550px;
     margin-left: -120%;
-    display: inline-block;
+    
 }
 .content-section .left p{
     display: flex;
