@@ -658,7 +658,7 @@ nav.scrolled {
     }
 .aipdesc {
     position: inherit;
-    padding: 20px; /* Add padding to create spacing within the card */
+    padding: 20px; 
     display: inline-block;
     width: 90%; /* Set the width to 100% to ensure it fits within the card */
     text-align: left;
