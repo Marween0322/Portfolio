@@ -1305,11 +1305,11 @@ nav.mobile-nav, .mobile-menu-container{
                     height: auto;
                     max-width: 75%;
                     padding-left: 8%;
-                    margin-top: -90%;
+                    margin-top: -250px;
                 }
                 .skills-section{
                     margin-left: -8%;
-                    margin-top: -30%;
+                    margin-top: -80px;
                 }
                 .skills{
                     margin-left: -10px;
@@ -1414,7 +1414,7 @@ nav.mobile-nav, .mobile-menu-container{
                 margin-top: -200px;
             }
             .project{
-                margin-top: -70%;
+                margin-top: 150px;
                 margin-left: -2%;
             }
             .projects1{
@@ -1542,14 +1542,14 @@ nav.mobile-nav, .mobile-menu-container{
                 .content-section .right img{
                     max-width: 90%;
                     padding-left: 70px;
-                    margin-top: -490px;
+                    margin-top: -350px;
                 }
                 .php,
                 .github{
                     margin-left: 32%;
                 }
                 .skills-section{
-                    margin-top: -60%;
+                    margin-top: -200px;
                 }
                 .skills1,
                 .projects1{
@@ -1557,7 +1557,7 @@ nav.mobile-nav, .mobile-menu-container{
                     margin-left: 5px;
                 }
                 .project{
-                    margin-top: -450px;
+                    margin-top: 140px;
                     margin-left: 3%;
                 }
                 .projects1{
@@ -1649,6 +1649,7 @@ nav.mobile-nav, .mobile-menu-container{
                 .content-section .right img{
                     width: 90%;
                     padding-left: 15%;
+                    margin-top: -310px;
                 }
                 .content-section .left .welcome{
                     font-size: 20px;
@@ -1674,7 +1675,7 @@ nav.mobile-nav, .mobile-menu-container{
                     margin-top: -300px;
                 }
                 .project{
-                    margin-top: -130%;
+                    margin-top: 50%;
                     margin-left: 30px;
                 }
                 .javascript,
