@@ -182,9 +182,9 @@ nav.scrolled {
         
 }
 
-.content-section .right{
-    margin-left: 54%;
-    padding-left: -100%;
+.content-section .right img{
+    margin-left: -120%;
+   
 }
 
 .content-section .left h1{
@@ -199,11 +199,7 @@ nav.scrolled {
     margin-top: 0;
 }
 
-.content-section .right img{
-    height: 550px;
-    margin-left: -120%;
-    
-}
+
 .content-section .left p{
     display: flex;
     font-size: 18px;
@@ -698,6 +694,7 @@ nav.scrolled {
             @media only screen and (max-width: 1440px) {
                 nav{
                     margin-left: -280px;
+                    width: 110%;
                 }
                 nav .logo{
                     margin-left: 150px;
@@ -707,7 +704,7 @@ nav.scrolled {
                     margin-left: -80px;
                 }
                 .content-section .right img{
-                    margin-left: -115%;
+                    margin-left: -60%;
                     margin-top: 50px;
                 }
                 .skills-section{
@@ -724,11 +721,11 @@ nav.scrolled {
             @media only screen and (max-width: 1024px) {
                 nav {
                     top: 0px;
-                    width: 50%; /* Adjust as needed */
-                    padding-left: 28%; /* Adjust padding for the logo */
+                    width: 70%; /* Adjust as needed */
+                    padding-left: 67%; /* Adjust padding for the logo */
                 }
                 nav .logo {
-                    margin-left: -15%;
+                    margin-left: -50%;
                 }
                 
                 nav.mobile-nav{
@@ -740,22 +737,28 @@ nav.scrolled {
                 
                 
                 .content-section {
-                    padding: 10px;
-                    margin-top: -10%;
-                    margin-left: 100px;
+                    
+                    margin-top: -15%;
+                    margin-left: -100px;
+                }
+                .content-section .left h1{
+                    font-size: 50px;
                 }
                 .content-section .left p {
                     height: auto;
-                    max-width: 100%;
-                    margin-top: 2%;
+                    font-size: 90%;
+                    max-width: 90%;
+                    margin-top: -1%;
                     padding-right: 15%;
                     
                 }
                 .btndark{
                     margin-left: -30%;  
+                    font-size: 15px;
                 }
                 .btnlight{
-                    margin-left: -20px;  
+                    margin-left: -20px;
+                    font-size: 14px;  
                 }
             
                 .content-section .left, .content-section .right {
@@ -768,14 +771,15 @@ nav.scrolled {
             
                 .content-section .right img {
                     height: auto;
-                    margin-top: 250%;
-                    margin-left: -490%;
+                    width: 70%;
+                    margin-top: 5%;
+                    margin-left: -20%;
                     
                     
                 }
                 .skills-section {
                     
-                    margin-top: 100px;
+                    margin-top: 10px;
                     margin-left: -2%;
                 }
                 .skills-section img{
@@ -784,13 +788,8 @@ nav.scrolled {
                 .skills1{
                     margin-left: -10px;
                 }
-                .project-section {
-                    margin-top: 230%;
-                    
-                }
-                .skills-section{
-                    padding-top: 50%;
-                }
+                
+                
                 .python,
                 .php,
                 .javascript,
@@ -813,7 +812,7 @@ nav.scrolled {
             .css, 
             .javascript, 
             .php{
-                font-size: 18px;
+                font-size: 15px;
                 padding: 13px 20px;
                 width: 25%;
                 height: 55px;
@@ -823,21 +822,21 @@ nav.scrolled {
             }
             .react, .bootstrap, .tailwindcss{
                 margin-top: -40px;
-                font-size: 18px;
+                font-size: 15px;
                 padding: 13px 20px;
                 width: 25%;
                 height: 55px;
             }
             .django, .laravel{
                 margin-top: -40px;
-                font-size: 18px;
+                font-size: 15px;
                 padding: 13px 20px;
                 width: 25%;
                 height: 55px;
             }
             .vs-code, .figma, .pgadmin, .git, .github {
                 margin-top: -40px;
-                font-size: 18px;
+                font-size: 15px;
                 padding: 13px 20px;
                 width: 25%;
                 height: 55px;
@@ -866,9 +865,12 @@ nav.scrolled {
             }
             
             .project{
-                margin-top: 50%;
-                margin-left: 100px;
+                margin-top: 10%;
+                margin-left: 120px;
                 width: 50%;
+            }
+            .projects1{
+                margin-left: -30px;
             }
             .myproject1{
                 margin-top: 0%;
@@ -876,42 +878,47 @@ nav.scrolled {
             }
             .projects-card1 {
             top: 15%;
-            width: 100%;
+            width: 90%
             }
             .projects-card2{
                 top: 20%;
                 margin-left: -60%;
-                width: 100%;
+                width: 80%;
             }
             .aipdesc{
-                font-size: 22px;
+                padding-top: 7%;
+                font-size: 20px;
             }
             }
             
             @media only screen and (max-width: 980px) {
+                nav {
+                    top: 0px;
+                    width: 80%; /* Adjust as needed */
+                    padding-left: 62%; /* Adjust padding for the logo */
+                }
+                nav .logo{
+                    margin-left: -35%;
+                }
                 .content-section {
+                    margin-top: -25%;
                     margin-left: 100px;
                 }
                 .content-section .right img{
-                    margin-left: -480%;
+                    width: 90%;
+                    margin-top: 200%;
+                    margin-left: -240%;
                 }
-                .project{
-                    margin-left: 80px;
+                .skills-section{
+                    margin-top: 30%;
                 }
-                .projects1{
-                    margin-left: 20px;
-                }
-                .projects-card1,
-                .projects-card2{
-                width: 110%;
-                height: 65%;
-                }
+                
             .python, 
             .html5, 
             .css, 
             .javascript, 
             .php{
-                font-size: 16px;
+                font-size: 15px;
                 padding: 13px 25px;
                 width: 27%;
                 height: 55px;
@@ -920,21 +927,21 @@ nav.scrolled {
             .bootstrap, 
             .tailwindcss{
                 margin-top: -40px;
-                font-size: 16px;
+                font-size: 15px;
                 padding: 13px 20px;
                 width: 27%;
                 height: 55px;
             }
             .django, .laravel{
                 margin-top: -40px;
-                font-size: 16px;
+                font-size: 15px;
                 padding: 13px 20px;
                 width: 27%;
                 height: 55px;
             }
             .vs-code, .figma, .pgadmin, .git, .github {
                 margin-top: -40px;
-                font-size: 18px;
+                font-size: 15px;
                 padding: 13px 20px;
                 width: 27%;
                 height: 55px;
@@ -954,26 +961,48 @@ nav.scrolled {
             .git{
                 margin-left: 55px;
             }
+            .project{
+                    margin-left: 90px;
+                }
+                .projects1{
+                    margin-left: -10px;
+                }
+                .projects-card1,
+                .projects-card2{
+                width: 100%;
+                height: 65%;
+                }
+                .aipdesc{
+                    padding-top: 7%;
+                    font-size: 18px;
+                }
             }
 
             @media only screen and (max-width: 768px) {
                 
                nav{
-                width: 50%;
+                width: 80%;
+                padding-left: 43%;
+                
                }
                nav .logo {
-                margin-left: -15%;
+                margin-left: -13%;
                }
                 .content-section{
-                    margin-left: -1%;
+                    margin-left: 1%;
                 }
                 .content-section .left .btndark{
-                    margin-left: -180px;
+                    margin-left: -160px;
+                    font-size: 12px;
+                }
+                .btnlight{
+                    font-size: 11px;
                 }
                 
                 .content-section .right img {
-                    margin-left: -420%;
-                    margin-top: 250%;
+                    margin-left: -350%;
+                    margin-top: 330%;
+                    width: 140%;
                 }
                 
                 
@@ -984,7 +1013,7 @@ nav.scrolled {
                     margin-left: -50px;
                 }
                 .skills1{
-                    margin-left: 3%;
+                    margin-left: -2%;
                 }
                 .python, 
                 .html5, 
@@ -1004,14 +1033,17 @@ nav.scrolled {
                 font-size: 65%;
                 padding: 16px 8px; 
             }
+            .projects1{
+                margin-left: 1%;
+            }
             .project{
-                    margin-left: 2%;
+                    margin-left: 1%;
                     width: 60%;
                 }
                 .projects-card1,
                 .projects-card2{
-                width: 110%;
-                height: 70%;
+                width: 100%;
+                height: 60%;
                 }
             
             }
@@ -1275,17 +1307,26 @@ nav.scrolled {
                 
 
             }
-            @media (width <= 300px) {
+            @media only screen and (max-width: 380px) {
                 
                 .content-section .right img{
                     width: 90%;
-                    padding-left: 230%;
+                    padding-left: 360%;
                 }
                 .content-section .left p{
                     font-size: 14px;
                 }
                 .content-section .left .btndark{
-                    margin-left: -80px;
+                    margin-left: -50px;
+                }
+                .btndark{
+                    padding: 12px 20px;
+
+                    
+                    
+                }
+                .btnlight{
+                    padding: 12px 20px;
                 }
             
                 .skills-section
