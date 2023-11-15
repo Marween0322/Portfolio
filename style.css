@@ -89,13 +89,6 @@ body{
 
 
 
-.btnlight{
-    border-radius: 9px;
-    border: 2px solid #00A5C0;  
-    
-}
-
-
 /* Add default styles for your navbar */
 nav {
     background-color: transparent;
@@ -182,10 +175,13 @@ nav.scrolled {
         
 }
 
-.content-section .right img{
-    margin-left: -120%;
-   
+.content-section .right img {
+    position: absolute;
+    top: 22%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    width: 23%; /* Adjust as needed */
 }
+
 
 .content-section .left h1{
     display: flex;
@@ -688,24 +684,27 @@ nav.scrolled {
     height: 27px;
     color: #fff;
             }
-            nav.mobile-nav{
-                display: none;
-            }
+nav.mobile-nav, .mobile-menu-container{
+    display: none;
+    }
+
             @media only screen and (max-width: 1440px) {
                 nav{
                     margin-left: -280px;
-                    width: 110%;
+                    width: 122%;
                 }
                 nav .logo{
-                    margin-left: 150px;
+                    margin-left: 200px;
                 }
                 .content-section{
-                    margin-top: -30px;
-                    margin-left: -80px;
+                    top: -50px;
+                    left: 150px;
                 }
-                .content-section .right img{
-                    margin-left: -60%;
-                    margin-top: 50px;
+                .content-section .right img {
+                    position: absolute;
+                    top: 27%; /* Adjust as needed */
+                    left: 50%; /* Adjust as needed */
+                    width: 32%; /* Adjust as needed */
                 }
                 .skills-section{
                     margin-left: -30px;
@@ -720,45 +719,87 @@ nav.scrolled {
             }
             @media only screen and (max-width: 1024px) {
                 nav {
-                    top: 0px;
-                    width: 70%; /* Adjust as needed */
-                    padding-left: 67%; /* Adjust padding for the logo */
+                    display: none; /* Add this line */
                 }
-                nav .logo {
-                    margin-left: -50%;
+                nav.mobile-nav .scrolled{
+                    display: none; /* Add this line */
                 }
-                
                 nav.mobile-nav{
-                    display: none;
+                    display: flex;
+                    width: 85%;
+                    height: 90px;
+                    margin-left: -2%;  
                 }
-                /* nav.scrolled.logo {
-                    padding-left: 50px;
-                } */
+                nav .menu-icon{
+                    padding-right: 15%;
+                }
+               .mobile-menu-container{
+                position: fixed;
+                height: 100vh;
+                width: 100%;
+                top: 0;
+                left: 100%;
+                background: #373737;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 200;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active{
+                left: 0;
+            }
+            .mobile-menu-container .close-icon{
+                position: fixed;
+                top: 15px;
+                right: 175px;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active .close-icon{
+                opacity: 1;
+                pointer-events: auto;
+            }
+            .mobile-menu-container ul {
+                list-style: none;
+                padding: 0;
+            }
+            .mobile-menu-container ul li{
+                margin: 40px 0;
+                margin-left: -150px;
+                text-align: center;
                 
-                
-                .content-section {
-                    
-                    margin-top: -15%;
-                    margin-left: -100px;
+            }
+            .mobile-menu-container ul li a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 25px;
+            }
+               nav .logo {
+                margin-left: -10%;
+               }
+                .content-section .left{
+                    margin-top: -380px;
+                    margin-left: 110px;
                 }
                 .content-section .left h1{
-                    font-size: 50px;
+                    font-size: 60px;
                 }
                 .content-section .left p {
                     height: auto;
-                    font-size: 90%;
-                    max-width: 90%;
-                    margin-top: -1%;
+                    font-size: 18px;
+                    max-width: 500px;
+                    margin-top: 30px;
                     padding-right: 15%;
-                    
                 }
                 .btndark{
-                    margin-left: -30%;  
-                    font-size: 15px;
+                    margin-left: -25%;  
+                    font-size: 20px;
                 }
                 .btnlight{
                     margin-left: -20px;
-                    font-size: 14px;  
+                    font-size: 20px;  
                 }
             
                 .content-section .left, .content-section .right {
@@ -767,19 +808,16 @@ nav.scrolled {
                     padding: 20px 0;
                     padding-top: 20%;
                 }
-                
-            
                 .content-section .right img {
-                    height: auto;
-                    width: 70%;
-                    margin-top: 5%;
-                    margin-left: -20%;
-                    
-                    
+                    position: absolute;
+                    top: 68%; /* Adjust as needed */
+                    left: 15%; /* Adjust as needed */
+                    width: 40%; /* Adjust as needed */
                 }
+                
                 .skills-section {
                     
-                    margin-top: 10px;
+                    top: 1350px;
                     margin-left: -2%;
                 }
                 .skills-section img{
@@ -868,6 +906,7 @@ nav.scrolled {
                 margin-top: 10%;
                 margin-left: 120px;
                 width: 50%;
+                margin-bottom: 50px;
             }
             .projects1{
                 margin-left: -30px;
@@ -883,7 +922,7 @@ nav.scrolled {
             .projects-card2{
                 top: 20%;
                 margin-left: -60%;
-                width: 80%;
+                width: 90%;
             }
             .aipdesc{
                 padding-top: 7%;
@@ -893,24 +932,79 @@ nav.scrolled {
             
             @media only screen and (max-width: 980px) {
                 nav {
-                    top: 0px;
-                    width: 80%; /* Adjust as needed */
-                    padding-left: 62%; /* Adjust padding for the logo */
+                    display: none; /* Add this line */
+                }
+                nav.mobile-nav .scrolled{
+                    display: none; /* Add this line */
                 }
                 nav .logo{
-                    margin-left: -35%;
+                    margin-left: -12%;
                 }
+                nav.mobile-nav{
+                    display: flex;
+                    width: 95%;
+                    height: 90px;
+                    margin-left: 0%;  
+                }
+                nav .menu-icon{
+                    padding-right: 15%;
+                }
+               .mobile-menu-container{
+                position: fixed;
+                height: 100vh;
+                width: 100%;
+                top: 0;
+                left: 100%;
+                background: rgba(55, 55, 55, 0.993);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 200;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active{
+                left: 0;
+            }
+            .mobile-menu-container .close-icon{
+                position: fixed;
+                top: 15px;
+                right: 40px;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active .close-icon{
+                opacity: 1;
+                pointer-events: auto;
+            }
+            .mobile-menu-container ul {
+                list-style: none;
+                padding: 0;
+            }
+            .mobile-menu-container ul li{
+                margin: 40px 0;
+                margin-left: -10px;
+                text-align: center;
+                
+            }
+            .mobile-menu-container ul li a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 25px;
+            }
+                
+                
                 .content-section {
-                    margin-top: -25%;
-                    margin-left: 100px;
+                    margin-top: 10%;
+                    margin-left: -10px;
                 }
                 .content-section .right img{
-                    width: 90%;
-                    margin-top: 200%;
-                    margin-left: -240%;
+                    width: 45%;
+                    margin-top: 5%;
+                    margin-left: -2%;
                 }
                 .skills-section{
-                    margin-top: 30%;
+                    margin-top: 20%;
                 }
                 
             .python, 
@@ -961,8 +1055,11 @@ nav.scrolled {
             .git{
                 margin-left: 55px;
             }
+            
             .project{
                     margin-left: 90px;
+                    margin-top: 50%;
+                    
                 }
                 .projects1{
                     margin-left: -10px;
@@ -980,34 +1077,94 @@ nav.scrolled {
 
             @media only screen and (max-width: 768px) {
                 
-               nav{
-                width: 80%;
-                padding-left: 43%;
+                nav {
+                    display: none; /* Add this line */
+                }
+                nav.mobile-nav .scrolled{
+                    display: none; /* Add this line */
+                }
+                nav .logo{
+                    margin-left: -12%;
+                }
+                nav.mobile-nav{
+                    display: flex;
+                    width: 95%;
+                    height: 90px;
+                    margin-left: 0%;  
+                }
+                nav .menu-icon{
+                    padding-right: 15%;
+                }
+               .mobile-menu-container{
+                position: fixed;
+                height: 100vh;
+                width: 100%;
+                top: 0;
+                left: 100%;
+                background: rgba(55, 55, 55, 0.993);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 200;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active{
+                left: 0;
+            }
+            .mobile-menu-container .close-icon{
+                position: fixed;
+                top: 15px;
+                right: 40px;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active .close-icon{
+                opacity: 1;
+                pointer-events: auto;
+            }
+            .mobile-menu-container ul {
+                list-style: none;
+                padding: 0;
+            }
+            .mobile-menu-container ul li{
+                margin: 40px 0;
+                margin-left: -10px;
+                text-align: center;
                 
-               }
+            }
+            .mobile-menu-container ul li a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 25px;
+            }
+            
                nav .logo {
-                margin-left: -13%;
+                margin-left: -10%;
                }
                 .content-section{
-                    margin-left: 1%;
+                    margin-left: -15%;
+                    margin-top: 17%;
                 }
                 .content-section .left .btndark{
                     margin-left: -160px;
-                    font-size: 12px;
+                    font-size: 15px;
                 }
                 .btnlight{
-                    font-size: 11px;
+                    font-size: 15px;
                 }
                 
                 .content-section .right img {
-                    margin-left: -350%;
-                    margin-top: 330%;
-                    width: 140%;
+                    
+                    margin-left: 2px;
+                    margin-top: 3px;
+                    width: 400px;
                 }
                 
                 
                 .skills-section{
-                    padding-left: 2%;
+                    padding-left: 4%;
+                    margin-top: 20px;
                 }
                 .skills{
                     margin-left: -50px;
@@ -1037,8 +1194,9 @@ nav.scrolled {
                 margin-left: 1%;
             }
             .project{
-                    margin-left: 1%;
-                    width: 60%;
+                margin-top: 400px;
+                margin-left: 5%;
+                width: 60%;
                 }
                 .projects-card1,
                 .projects-card2{
@@ -1055,24 +1213,70 @@ nav.scrolled {
                 nav {
                     display: none; /* Add this line */
                 }
-                nav.scrolled{
+                nav.mobile-nav .scrolled{
                     display: none; /* Add this line */
+                }
+                nav .logo{
+                    margin-left: -10px;
                 }
                 nav.mobile-nav{
                     display: flex;
-                    width: 80%;
-                    margin-left: -13%;
-                    
+                    width: 100%;
+                    height: 90px;
+                    margin-left: -8%;  
                 }
                 nav .menu-icon{
                     padding-right: 15%;
-                    
                 }
+               .mobile-menu-container{
+                position: fixed;
+                height: 100vh;
+                width: 100%;
+                top: 0;
+                left: 100%;
+                background: rgba(55, 55, 55, 0.993);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 200;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active{
+                left: 0;
+            }
+            .mobile-menu-container .close-icon{
+                position: fixed;
+                top: 15px;
+                right: 40px;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active .close-icon{
+                opacity: 1;
+                pointer-events: auto;
+            }
+            .mobile-menu-container ul {
+                list-style: none;
+                padding: 0;
+            }
+            .mobile-menu-container ul li{
+                margin: 40px 0;
+                margin-left: -10px;
+                text-align: center;
+                
+            }
+            .mobile-menu-container ul li a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 25px;
+            }
+                
                 
                 .content-section {
-                    margin-top: 5%;
+                    margin-top: 95%;
                     flex-direction: column;
-                    margin-left: -90px;
+                    margin-left: -200px;
                     width: 100%;
                 }
                 .content-section .left h1 {
@@ -1084,32 +1288,28 @@ nav.scrolled {
                 .content-section .left p {
                     margin-top: -40px;
                     font-size: 16px;
-                    width: 500px;
+                    width: 350px;
                 }
                 .content-section .left .btndark{
-                    margin-left: -40%;
+                    margin-left: -30%;
+                    font-size: 12px;
+                    padding: 13px 20px;
                 }
                 .content-section .left .btnlight{
                     margin-left: -5%;
-                }
-                .btndark {
-                font-size: 70%;
-                padding: 13px 20px;
-                
-                }
-                .btnlight{
-                    font-size: 70%;
+                    font-size: 12px;
                     padding: 13px 20px;
                 }
+                
                 .content-section .right img {
                     height: auto;
-                    max-width: 80%;
-                    padding-left: 350%;
-                    margin-top: -20%;
+                    max-width: 75%;
+                    padding-left: 8%;
+                    margin-top: -90%;
                 }
                 .skills-section{
                     margin-left: -8%;
-                    margin-top: -20%;
+                    margin-top: -30%;
                 }
                 .skills{
                     margin-left: -10px;
@@ -1171,11 +1371,11 @@ nav.scrolled {
             .javascript
             {
                 margin-top: 35px;
-                margin-left: -69.5%;
+                margin-left: -69%;
             }
             .git{
                 margin-top: -165px;
-                margin-left: -69.5%;
+                margin-left: -69%;
                 
             }
             .php{
@@ -1214,9 +1414,11 @@ nav.scrolled {
                 margin-top: -200px;
             }
             .project{
-                margin-top: -50%;
+                margin-top: -70%;
                 margin-left: -2%;
-                
+            }
+            .projects1{
+                padding: 0 20px;
             }
             .card-title{
                 font-size: 90%;
@@ -1224,8 +1426,8 @@ nav.scrolled {
                 margin-left: -4%;
             }
             .aipdesc{
-                margin-top: 1%;
-                font-size: 70%;
+                margin-top: 5%;
+                font-size: 60%;
             }
             .explorebtn{
                 margin-top: -10px;
@@ -1233,12 +1435,23 @@ nav.scrolled {
             .projects-card1{
                 margin-left: 12px;
                 width: 110%;
-                height: 60%;
+                height: 48%;
                 }
+            .myproject1{
+                padding: 13px 11px;
+                height: 30%;
+                width: 92%;
+            }
             .projects-card2{
                 margin-left: -160px;
                 width: 110%;
-                height: 60%;
+                height: 48%;
+                margin-bottom: 100%;
+            }
+            .myproject2{
+                padding: 13px 11px;
+                height: 30%;
+                width: 92%;
             }
         
                 /* Adjust other styles as needed for smaller screens */
@@ -1247,44 +1460,108 @@ nav.scrolled {
                 nav {
                     display: none; /* Add this line */
                 }
-                nav.scrolled{
+                nav.mobile-nav .scrolled{
                     display: none; /* Add this line */
+                }
+                nav .logo{
+                    margin-left: -10px;
                 }
                 nav.mobile-nav{
                     display: flex;
-                    width: 80%;
-                    margin-left: -13%;
+                    width: 100%;
+                    height: 90px;
+                    margin-left: -8%;  
                 }
                 nav .menu-icon{
                     padding-right: 15%;
-                    
                 }
-                nav .logo{
-                    margin-left: -15%;
-                    
+               .mobile-menu-container{
+                position: fixed;
+                height: 100vh;
+                width: 100%;
+                top: 0;
+                left: 100%;
+                background: rgba(55, 55, 55, 0.993);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 200;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active{
+                left: 0;
+            }
+            .mobile-menu-container .close-icon{
+                position: fixed;
+                top: 15px;
+                right: 40px;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active .close-icon{
+                opacity: 1;
+                pointer-events: auto;
+            }
+            .mobile-menu-container ul {
+                list-style: none;
+                padding: 0;
+            }
+            .mobile-menu-container ul li{
+                margin: 40px 0;
+                margin-left: -10px;
+                text-align: center;
+                
+            }
+            .mobile-menu-container ul li a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 25px;
+            }
+
+                .content-section {
+                    margin-top: 480px;
+                    flex-direction: column;
+                    margin-left: -200px;
+                    width: 320px;
                 }
                 .content-section .left p{
+                    display: flex;
                     font-size: 15px;
+                    
                 }
                 .content-section .left .btndark{
-                    margin-left: -30%;
+                    margin-left: -5%;
+                    font-size: 11px;
                 }
+                .content-section .left .btnlight{
+                    margin-left: -10%;
+                    font-size: 11px;
+                }
+                
                 .content-section .right img{
-                    width: 90%;
-                    padding-left: 355%;
+                    max-width: 90%;
+                    padding-left: 70px;
+                    margin-top: -490px;
                 }
                 .php,
                 .github{
                     margin-left: 32%;
                 }
+                .skills-section{
+                    margin-top: -60%;
+                }
                 .skills1,
                 .projects1{
                     font-size: 35px;
-                    margin-left: -10px;
+                    margin-left: 5px;
                 }
                 .project{
-                    margin-top: -300px;
-                    margin-left: 5%;
+                    margin-top: -450px;
+                    margin-left: 3%;
+                }
+                .projects1{
+                    margin-left: -10px;
                 }
                 .projects-card1{
                     margin-left: -12%;
@@ -1296,34 +1573,96 @@ nav.scrolled {
                     font-size: 20px;
                 }
                 .aipdesc{
-                    font-size: 15px;
+                    font-size: 14px;
                     margin-left: -8px;
                 }
                 .projects-card1,
                 .projects-card2{
-                width: 110%;
+                width: 130%;
                 height: 50%;
                 }
                 
 
             }
             @media only screen and (max-width: 380px) {
+                nav {
+                    display: none; /* Add this line */
+                }
+                nav.mobile-nav .scrolled{
+                    display: none; /* Add this line */
+                }
+                nav .logo{
+                    margin-left: -10px;
+                }
+                nav.mobile-nav{
+                    display: flex;
+                    width: 100%;
+                    height: 90px;
+                    margin-left: -6%;  
+                }
+                nav .menu-icon{
+                    padding-right: 15%;
+                }
+               .mobile-menu-container{
+                position: fixed;
+                height: 110vh;
+                width: 100%;
+                top: 0;
+                left: 100%;
+                background: rgba(55, 55, 55, 0.993);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 200;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active{
+                left: 0;
+            }
+            .mobile-menu-container .close-icon{
+                position: fixed;
+                top: 15px;
+                right: 40px;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 400ms ease;
+            }
+            .mobile-menu-container.active .close-icon{
+                opacity: 1;
+                pointer-events: auto;
+            }
+            .mobile-menu-container ul {
+                list-style: none;
+                padding: 0;
+            }
+            .mobile-menu-container ul li{
+                margin: 40px 0;
+                margin-left: -10px;
+                text-align: center;
                 
+            }
+            .mobile-menu-container ul li a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 25px;
+            }
                 .content-section .right img{
                     width: 90%;
-                    padding-left: 360%;
+                    padding-left: 15%;
+                }
+                .content-section .left .welcome{
+                    font-size: 20px;
                 }
                 .content-section .left p{
+                    padding: 0 10px;
+                    margin-top: -30px;
                     font-size: 14px;
                 }
                 .content-section .left .btndark{
-                    margin-left: -50px;
+                    margin-left: -20px;
                 }
                 .btndark{
                     padding: 12px 20px;
-
-                    
-                    
                 }
                 .btnlight{
                     padding: 12px 20px;
@@ -1332,17 +1671,17 @@ nav.scrolled {
                 .skills-section
                 {
                     display: block;
-                    margin-top: -10%;
+                    margin-top: -300px;
                 }
                 .project{
-                    margin-top: -30%;
+                    margin-top: -130%;
+                    margin-left: 30px;
                 }
-                .javascript{
-                    margin-left: -190px;
-                }
+                .javascript,
                 .git{
-                    margin-left: -190px;
+                    margin-left: -183px;
                 }
+                
                 .python, 
                 .html5, 
                 .css, 
@@ -1378,7 +1717,7 @@ nav.scrolled {
             .css,
             .tailwindcss,
             .pgadmin{
-                margin-left: 72px;
+                margin-left: 70px;
 
             }
             .projects-card1,
@@ -1387,10 +1726,10 @@ nav.scrolled {
                 height: 50%;
                 }
                 .projects-card1{
-                    margin-left: -45px;
+                    margin-left: -38px;
                 }
                 .projects-card2{
-                    margin-left: -185px;
+                    margin-left: -178px;
                 }
 
                 }
