@@ -157,10 +157,10 @@ nav.scrolled {
     font-family: 'Poppins', sans-serif;
     display: flex;
     height: 100vh;
-    width: 100%;
+    width: 85%;
     align-items: center;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: -5rem;
 }
 
 .welcome{
@@ -178,8 +178,8 @@ nav.scrolled {
 .content-section .right img {
     position: absolute;
     top: 22%; /* Adjust as needed */
-    left: 50%; /* Adjust as needed */
-    width: 23%; /* Adjust as needed */
+    left: 58%; /* Adjust as needed */
+    width: 28rem; /* Adjust as needed */
 }
 
 
@@ -575,14 +575,19 @@ nav.scrolled {
   	font-family: Poppins;
 }
 /* end of skill form */
-
-.project {
+.myprojects-section{
     display: inline-block;
     position: absolute;
-    top: 250%;
+    top: 2200px;
     left: 15%;
+    height: 100vh;
     width: 70%;
-    height: 901px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.project {
     text-align: left;
     font-size: 24px;
     color: #3e3e3e;
@@ -702,16 +707,16 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 .content-section .right img {
                     position: absolute;
-                    top: 27%; /* Adjust as needed */
-                    left: 50%; /* Adjust as needed */
-                    width: 32%; /* Adjust as needed */
+                    top: 24%; /* Adjust as needed */
+                    left: 64%; /* Adjust as needed */
+                    width: 25rem; /* Adjust as needed */
                 }
                 .skills-section{
                     margin-left: -30px;
                 }
                 .project{
                     margin-left: -70px;
-                    width: 80%;
+                    width: 120%;
                 }
                 .skills-section img{
                     margin-top: 1px;
@@ -726,7 +731,7 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 nav.mobile-nav{
                     display: flex;
-                    width: 85%;
+                    width: 98%;
                     height: 90px;
                     margin-left: -2%;  
                 }
@@ -752,7 +757,7 @@ nav.mobile-nav, .mobile-menu-container{
             .mobile-menu-container .close-icon{
                 position: fixed;
                 top: 15px;
-                right: 175px;
+                right: 40px;
                 opacity: 0;
                 pointer-events: none;
                 transition: all 400ms ease;
@@ -767,7 +772,7 @@ nav.mobile-nav, .mobile-menu-container{
             }
             .mobile-menu-container ul li{
                 margin: 40px 0;
-                margin-left: -150px;
+                margin-left: -50px;
                 text-align: center;
                 
             }
@@ -778,6 +783,9 @@ nav.mobile-nav, .mobile-menu-container{
             }
                nav .logo {
                 margin-left: -10%;
+               }.content-section{
+                margin-left: 20px;
+                margin-top: 160px;
                }
                 .content-section .left{
                     margin-top: -380px;
@@ -810,9 +818,9 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 .content-section .right img {
                     position: absolute;
-                    top: 68%; /* Adjust as needed */
+                    top: 70%; /* Adjust as needed */
                     left: 15%; /* Adjust as needed */
-                    width: 40%; /* Adjust as needed */
+                    width: 25rem; /* Adjust as needed */
                 }
                 
                 .skills-section {
@@ -821,7 +829,7 @@ nav.mobile-nav, .mobile-menu-container{
                     margin-left: -2%;
                 }
                 .skills-section img{
-                    width: 15%;
+                    width: 20%;
                 }
                 .skills1{
                     margin-left: -10px;
@@ -902,27 +910,20 @@ nav.mobile-nav, .mobile-menu-container{
                 margin-top: -40px;
             }
             
-            .project{
-                margin-top: 10%;
-                margin-left: 120px;
-                width: 50%;
-                margin-bottom: 50px;
-            }
-            .projects1{
-                margin-left: -30px;
-            }
-            .myproject1{
-                margin-top: 0%;
-                width: 95%;
+            
+            .myprojects-section{
+                margin-top: 20rem;
             }
             .projects-card1 {
-            top: 15%;
-            width: 90%
+            margin-top: -10px;
+            width: 45%;
+            height: 35rem;
             }
             .projects-card2{
-                top: 20%;
-                margin-left: -60%;
-                width: 90%;
+                margin-top: 8%;
+                margin-left: 0%;
+                height: 35rem;
+                width: 45%;
             }
             .aipdesc{
                 padding-top: 7%;
@@ -995,13 +996,13 @@ nav.mobile-nav, .mobile-menu-container{
                 
                 
                 .content-section {
-                    margin-top: 10%;
+                    margin-top: 20%;
                     margin-left: -10px;
                 }
                 .content-section .right img{
-                    width: 45%;
-                    margin-top: 5%;
-                    margin-left: -2%;
+                    width: 25rem;
+                    margin-top: 2%;
+                    margin-left: 1%;
                 }
                 .skills-section{
                     margin-top: 20%;
@@ -1057,8 +1058,8 @@ nav.mobile-nav, .mobile-menu-container{
             }
             
             .project{
-                    margin-left: 90px;
-                    margin-top: 50%;
+                    margin-left: -6rem;
+                    margin-top: 15rem;
                     
                 }
                 .projects1{
@@ -1066,8 +1067,11 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 .projects-card1,
                 .projects-card2{
-                width: 100%;
-                height: 65%;
+                width: 25rem;
+                height: 33rem;
+                }
+                .projects-card2{
+                    margin-top: 100px;
                 }
                 .aipdesc{
                     padding-top: 7%;
@@ -1097,7 +1101,7 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                .mobile-menu-container{
                 position: fixed;
-                height: 100vh;
+                height: 110vh;
                 width: 100%;
                 top: 0;
                 left: 100%;
@@ -1143,22 +1147,23 @@ nav.mobile-nav, .mobile-menu-container{
                 margin-left: -10%;
                }
                 .content-section{
-                    margin-left: -15%;
-                    margin-top: 17%;
+                    margin-left: -8rem;
+                    margin-top: 12rem;
                 }
                 .content-section .left .btndark{
-                    margin-left: -160px;
+                    margin-left: -10rem;
                     font-size: 15px;
                 }
                 .btnlight{
+                    margin-left: -1rem;
                     font-size: 15px;
                 }
                 
                 .content-section .right img {
                     
-                    margin-left: 2px;
+                    margin-left: 20px;
                     margin-top: 3px;
-                    width: 400px;
+                    width: 25rem;
                 }
                 
                 
@@ -1190,18 +1195,16 @@ nav.mobile-nav, .mobile-menu-container{
                 font-size: 65%;
                 padding: 16px 8px; 
             }
-            .projects1{
-                margin-left: 1%;
-            }
+            
             .project{
-                margin-top: 400px;
-                margin-left: 5%;
-                width: 60%;
+                margin-top: 0px;
+                margin-left: 10%;
+                width: 25rem;
                 }
-                .projects-card1,
+                
                 .projects-card2{
-                width: 100%;
-                height: 60%;
+                margin-top: 42rem;
+                margin-left: -15rem;
                 }
             
             }
@@ -1276,7 +1279,7 @@ nav.mobile-nav, .mobile-menu-container{
                 .content-section {
                     margin-top: 95%;
                     flex-direction: column;
-                    margin-left: -200px;
+                    margin-left: -150px;
                     width: 100%;
                 }
                 .content-section .left h1 {
@@ -1303,12 +1306,12 @@ nav.mobile-nav, .mobile-menu-container{
                 
                 .content-section .right img {
                     height: auto;
-                    max-width: 75%;
-                    padding-left: 8%;
+                    max-width: 65%;
+                    padding-left: 5%;
                     margin-top: -250px;
                 }
                 .skills-section{
-                    margin-left: -8%;
+                    margin-left: 2%;
                     margin-top: -80px;
                 }
                 .skills{
@@ -1413,12 +1416,13 @@ nav.mobile-nav, .mobile-menu-container{
             .pgadmin{
                 margin-top: -200px;
             }
-            .project{
-                margin-top: 150px;
-                margin-left: -2%;
+            
+            .myprojects-section{
+                margin-left: -1rem;
+                margin-top: -8rem;
             }
             .projects1{
-                padding: 0 20px;
+                padding: 0 40px;
             }
             .card-title{
                 font-size: 90%;
@@ -1426,7 +1430,7 @@ nav.mobile-nav, .mobile-menu-container{
                 margin-left: -4%;
             }
             .aipdesc{
-                margin-top: 5%;
+                margin-top: 10%;
                 font-size: 60%;
             }
             .explorebtn{
@@ -1434,19 +1438,19 @@ nav.mobile-nav, .mobile-menu-container{
             }
             .projects-card1{
                 margin-left: 12px;
-                width: 110%;
-                height: 48%;
+                width: 20rem;
+                height: 30rem;
                 }
             .myproject1{
                 padding: 13px 11px;
                 height: 30%;
-                width: 92%;
+                width: 93%;
             }
             .projects-card2{
-                margin-left: -160px;
-                width: 110%;
-                height: 48%;
-                margin-bottom: 100%;
+                margin-left: -14.5rem;
+                width: 20rem;
+                height: 30rem;
+                margin-bottom: 50%;
             }
             .myproject2{
                 padding: 13px 11px;
@@ -1520,9 +1524,9 @@ nav.mobile-nav, .mobile-menu-container{
             }
 
                 .content-section {
-                    margin-top: 480px;
+                    margin-top: 30rem;
                     flex-direction: column;
-                    margin-left: -200px;
+                    margin-left: -9rem;
                     width: 320px;
                 }
                 .content-section .left p{
@@ -1540,8 +1544,8 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 
                 .content-section .right img{
-                    max-width: 90%;
-                    padding-left: 70px;
+                    max-width: 18rem;
+                    padding-left: 45px;
                     margin-top: -350px;
                 }
                 .php,
@@ -1554,15 +1558,14 @@ nav.mobile-nav, .mobile-menu-container{
                 .skills1,
                 .projects1{
                     font-size: 35px;
-                    margin-left: 5px;
-                }
-                .project{
-                    margin-top: 140px;
-                    margin-left: 3%;
                 }
                 .projects1{
-                    margin-left: -10px;
+                    margin-left: -15px;
                 }
+                .myprojects-section{
+                    margin-left: 4rem;
+                }
+                
                 .projects-card1{
                     margin-left: -12%;
                 }
@@ -1578,8 +1581,8 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 .projects-card1,
                 .projects-card2{
-                width: 130%;
-                height: 50%;
+                width: 20rem;
+                height: 28rem;
                 }
                 
 
@@ -1646,10 +1649,13 @@ nav.mobile-nav, .mobile-menu-container{
                 text-decoration: none;
                 font-size: 25px;
             }
+            .content-section{
+                margin-left: -8rem;
+            }
                 .content-section .right img{
                     width: 90%;
                     padding-left: 15%;
-                    margin-top: -310px;
+                    margin-top: -23rem;
                 }
                 .content-section .left .welcome{
                     font-size: 20px;
@@ -1660,23 +1666,18 @@ nav.mobile-nav, .mobile-menu-container{
                     font-size: 14px;
                 }
                 .content-section .left .btndark{
-                    margin-left: -20px;
+                    margin-left: -1rem;
                 }
-                .btndark{
-                    padding: 12px 20px;
-                }
-                .btnlight{
-                    padding: 12px 20px;
-                }
+                
             
                 .skills-section
                 {
                     display: block;
                     margin-top: -300px;
+                    margin-left: 3rem;
                 }
-                .project{
-                    margin-top: 50%;
-                    margin-left: 30px;
+                .myprojects-section{
+                    margin-left: 6rem;
                 }
                 .javascript,
                 .git{
@@ -1721,16 +1722,4 @@ nav.mobile-nav, .mobile-menu-container{
                 margin-left: 70px;
 
             }
-            .projects-card1,
-            .projects-card2{
-                width: 140%;
-                height: 50%;
-                }
-                .projects-card1{
-                    margin-left: -38px;
-                }
-                .projects-card2{
-                    margin-left: -178px;
-                }
-
-                }
+            
