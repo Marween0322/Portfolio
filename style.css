@@ -1553,6 +1553,7 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 .skills-section{
                     margin-top: -18rem;
+                    margin-left: -1.5rem;
                 }
                 .skills1,
                 .projects1{
@@ -1563,7 +1564,7 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 .myprojects-section{
                     margin-top: -20rem;
-                    margin-left: -18px;
+                    margin-left: -10px;
                 }
                 .project{ 
                     width: 100%;
