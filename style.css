@@ -26,6 +26,19 @@ body{
     
 }
 
+
+.background {
+    position: absolute;
+    top: 90px;
+    left: -20%;
+    border-radius: 0px 70px 70px 0px;
+    background-color: #051f3e;
+    width: 95%;
+    height: 800px;
+    z-index: -1; /* Place the background behind other content */
+}
+
+
 /* buttons */
 
 .btndark {
@@ -40,6 +53,7 @@ body{
     line-height: normal;
     text-decoration: none;
     margin-right: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Add box-shadow to the transition */
 }
 
@@ -55,38 +69,170 @@ body{
     line-height: normal;
     text-decoration: none;
     cursor: pointer;
-    box-shadow: -8px 8px 0 0 #2F505F; /* Add box-shadow on hover */
+    box-shadow: -8px 8px 0 0 #00B7C2; /* Add box-shadow on hover */
 }
 
-.btnlight {
-    background: var(--dark-green-color);
-    padding: 10px 30px;
-    border-radius: 9px;
-    color: #F1F1EF;
-    display: inline-block;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
-    margin-right: 30px;
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+.joblink {
+    margin-top: -3rem;
+    margin-left: 10rem;
+    display: flex; /* Ensures the images are aligned in a row */
 }
-.btnlight:hover {
-    padding: 10px 30px;
-    border: 2px solid #00A5C0;
-    color: #3895a3;
-    background-color: #ffffff;
-    display: inline-block;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
+
+
+.joblink a img {
+    margin-left: 15px; /* Adjust the value as needed for the desired gap between images */
+    
+}
+
+.Btnli {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 20%;
     cursor: pointer;
-    box-shadow: -8px 8px 0 0 #2F505F; /* Add box-shadow on hover */
-}
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: #0077B5;
+  }
 
+  .Btnli img{
+    margin-left: -0.5rem
+  }
+  
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+  /* hover effect on button width */
+  .Btnli:hover {
+    width: 130px;
+    border-radius: 10px;
+    transition-duration: .3s;
+    cursor: pointer;
+    box-shadow: -8px 8px 0 0 #00B7C2;
+  }
+  
+  /* hover effect button's text */
+  .Btnli:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+  }
+
+.Btnin {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: #ffffff;
+  }
+
+  .Btnin img{
+    margin-left: -0.5rem
+  }
+  
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+  /* hover effect on button width */
+  .Btnin:hover {
+    width: 130px;
+    border-radius: 10px;
+    transition-duration: .3s;
+    cursor: pointer;
+    box-shadow: -8px 8px 0 0 #00B7C2;
+  }
+  
+  /* hover effect button's text */
+  .Btnin:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+    color: #003A9B;
+  }
+
+  .Btnka {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: #0086FF;
+  }
+
+  .Btnka img{
+    margin-left: -0.5rem
+  }
+  
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+  /* hover effect on button width */
+  .Btnka:hover {
+    width: 130px;
+    border-radius: 10px;
+    transition-duration: .3s;
+    cursor: pointer;
+    box-shadow: -8px 8px 0 0 #00B7C2;
+  }
+  
+  /* hover effect button's text */
+  .Btnka:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+  }
+  /* button click effect*/
+  
 
 
 /* Add default styles for your navbar */
@@ -167,7 +313,7 @@ nav.scrolled {
     display: flex;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
-    color: #003655;
+    color: #00a2ffc9;
     text-align: left;
     width: 321px;
     height: 38px;
@@ -180,6 +326,8 @@ nav.scrolled {
     top: 22%; /* Adjust as needed */
     left: 58%; /* Adjust as needed */
     width: 28rem; /* Adjust as needed */
+    box-shadow: 0px 0px 0px 10px #ffffff;
+    border-radius: 0px 0px 0px 150px;
 }
 
 
@@ -190,7 +338,7 @@ nav.scrolled {
     text-align: left;
     width: 520px;
     height: 162px;
-    color: #3894a3;
+    color: #55e8ff;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -199,16 +347,16 @@ nav.scrolled {
 .content-section .left p{
     display: flex;
     font-size: 18px;
-    color: #595858;
+    color: #ffffff;
     text-align: left;
     display: inline-block;
     width: 496px;
     height: 194px;
 }
 .content-section .left {
-    
     width: 457px;
 }
+
 .skills-section{
     display: inline-block;
     position: absolute;
@@ -701,6 +849,16 @@ nav.mobile-nav, .mobile-menu-container{
                 nav .logo{
                     margin-left: 200px;
                 }
+                .background {
+                    position: absolute;
+                    top: 140px;
+                    left: -20%;
+                    border-radius: 0px 70px 70px 0px;
+                    background-color: #051f3e;
+                    width: 102%;
+                    height: 650px;
+                    z-index: -1; /* Place the background behind other content */
+                }
                 .content-section{
                     top: -50px;
                     left: 150px;
@@ -737,6 +895,16 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 nav .menu-icon{
                     padding-right: 15%;
+                }
+                .background {
+                    position: absolute;
+                    top: -25px;
+                    left: -21%;
+                    border-radius: 0px 0px 100px 100px;
+                    background-color: #051f3e;
+                    width: 120%;
+                    height: 820px;
+                    z-index: -1; /* Place the background behind other content */
                 }
                .mobile-menu-container{
                 position: fixed;
@@ -783,12 +951,13 @@ nav.mobile-nav, .mobile-menu-container{
             }
                nav .logo {
                 margin-left: -10%;
-               }.content-section{
+               }
+               .content-section{
                 margin-left: 20px;
                 margin-top: 160px;
                }
                 .content-section .left{
-                    margin-top: -380px;
+                    margin-top: -290px;
                     margin-left: 110px;
                 }
                 .content-section .left h1{
@@ -802,15 +971,13 @@ nav.mobile-nav, .mobile-menu-container{
                     padding-right: 15%;
                 }
                 .btndark{
-                    margin-left: -25%;  
+                    left: -10%;
+                    margin-left: -0.1rem;  
                     font-size: 20px;
                 }
-                .btnlight{
-                    margin-left: -20px;
-                    font-size: 20px;  
-                }
+                
             
-                .content-section .left, .content-section .right {
+                 .content-section .right {
                     width: 80%;
                     text-align: center;
                     padding: 20px 0;
@@ -949,6 +1116,16 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 nav .menu-icon{
                     padding-right: 15%;
+                }
+                .background {
+                    position: absolute;
+                    top: -3.5rem;
+                    left: -9rem;
+                    border-radius: 0px 0px 100px 100px;
+                    background-color: #051f3e;
+                    width: 119%;
+                    height: 820px;
+                    z-index: -1; /* Place the background behind other content */
                 }
                .mobile-menu-container{
                 position: fixed;
@@ -1099,6 +1276,16 @@ nav.mobile-nav, .mobile-menu-container{
                 nav .menu-icon{
                     padding-right: 15%;
                 }
+                .background {
+                    position: absolute;
+                    
+                    left: -1.5rem;
+                    border-radius: 0px 0px 100px 100px;
+                    background-color: #051f3e;
+                    width: 117.9%;
+                    height: 820px;
+                    z-index: -1; /* Place the background behind other content */
+                }
                .mobile-menu-container{
                 position: fixed;
                 height: 110vh;
@@ -1150,18 +1337,12 @@ nav.mobile-nav, .mobile-menu-container{
                     margin-left: -8rem;
                     margin-top: 12rem;
                 }
-                .content-section .left .btndark{
-                    margin-left: -10rem;
-                    font-size: 15px;
-                }
-                .btnlight{
-                    margin-left: -1rem;
-                    font-size: 15px;
-                }
+                
+                
                 
                 .content-section .right img {
                     
-                    margin-left: 20px;
+                    margin-left: 60px;
                     margin-top: 3px;
                     width: 25rem;
                 }
@@ -1275,12 +1456,25 @@ nav.mobile-nav, .mobile-menu-container{
                 font-size: 25px;
             }
                 
-                
+            .background {
+                position: absolute;
+                top: -20rem;
+                left: 2rem;
+                border-radius: 0px 0px 100px 100px;
+                background-color: #051f3e;
+                width: 104%;
+                height: 820px;
+                z-index: -1; /* Place the background behind other content */
+            }
                 .content-section {
                     margin-top: 95%;
                     flex-direction: column;
                     margin-left: -190px;
                     width: 100%;
+                }
+                .content-section .left {
+                    margin-top: -16rem;
+                    margin-left: 10rem;
                 }
                 .content-section .left h1 {
                     display: flex;
@@ -1293,21 +1487,11 @@ nav.mobile-nav, .mobile-menu-container{
                     font-size: 16px;
                     width: 350px;
                 }
-                .content-section .left .btndark{
-                    margin-left: -30%;
-                    font-size: 12px;
-                    padding: 13px 20px;
-                }
-                .content-section .left .btnlight{
-                    margin-left: -5%;
-                    font-size: 12px;
-                    padding: 13px 20px;
-                }
                 
                 .content-section .right img {
                     height: auto;
                     max-width: 65%;
-                    padding-left: 5%;
+                    margin-left: 50px;
                     margin-top: -250px;
                 }
                 .skills-section{
@@ -1479,6 +1663,7 @@ nav.mobile-nav, .mobile-menu-container{
                 nav .menu-icon{
                     padding-right: 15%;
                 }
+                
                .mobile-menu-container{
                 position: fixed;
                 height: 100vh;
@@ -1522,37 +1707,46 @@ nav.mobile-nav, .mobile-menu-container{
                 text-decoration: none;
                 font-size: 25px;
             }
-
+            .background {
+                position: absolute;
+                top: -20rem;
+                left: 10rem;
+                border-radius: 0px 0px 40px 40px;
+                background-color: #051f3e;
+                width: 87.8%;
+                height: 820px;
+                z-index: -1; /* Place the background behind other content */
+            }
                 .content-section {
-                    margin-top: 30rem;
-                    flex-direction: column;
-                    margin-left: -14rem;
+                    margin-top: 28rem;
+                    margin-left: -75%;
+                    width: 114%;
+
+                }
+                .content-section .left{
+                    width: 50%;
+                }
+                
+                .joblink{
+                    width: 80%;
                 }
                 .content-section .left p{
                     display: flex;
                     font-size: 15px;
-                    
+                    width: 130%;
+
                 }
-                .content-section .left .btndark{
-                    margin-left: -25%;
-                    font-size: 11px;
-                }
-                .content-section .left .btnlight{
-                    margin-left: -10%;
-                    font-size: 11px;
-                }
-                
                 .content-section .right img{
                     max-width: 18rem;
-                    margin-left: 3rem;
-                    top: 28rem;
+                    margin-left: 9.5rem;
+                    top: 38rem;
                 }
                 .php,
                 .github{
                     margin-left: 32%;
                 }
                 .skills-section{
-                    margin-top: -18rem;
+                    margin-top: -10rem;
                     margin-left: -1.5rem;
                 }
                 .skills1,
@@ -1563,7 +1757,7 @@ nav.mobile-nav, .mobile-menu-container{
                     margin-left: -15px;
                 }
                 .myprojects-section{
-                    margin-top: -20rem;
+                    margin-top: -15rem;
                     margin-left: -10px;
                 }
                 .project{ 
@@ -1652,11 +1846,21 @@ nav.mobile-nav, .mobile-menu-container{
                 text-decoration: none;
                 font-size: 25px;
             }
+            .background {
+                position: absolute;
+                top: -20rem;
+                left: 10rem;
+                border-radius: 0px 0px 40px 40px;
+                background-color: #051f3e;
+                width: 90%;
+                height: 820px;
+                z-index: -1; /* Place the background behind other content */
+            }
             .content-section{
-                margin-left: -14rem;
+                margin-left: -20rem;
             }
                 .content-section .right img{
-                    margin-top: -19rem;
+                    margin-top: -15rem;
                 }
                 .content-section .left .welcome{
                     font-size: 20px;
@@ -1667,17 +1871,23 @@ nav.mobile-nav, .mobile-menu-container{
                     font-size: 14px;
                 }
                 .content-section .left .btndark{
-                    margin-left: -1rem;
+                    margin-left: 1rem;
+                    font-size: 13px;
                 }
-                
+                .joblink{
+                    margin-top: -41px;
+                    width: 85%;
+                    
+                }
             
                 .skills-section
                 {
-                    margin-top: -20rem;
+                    margin-top: -5rem;
                     margin-left: -2rem;
                 }
                 .myprojects-section{
                     margin-left: -1rem;
+                    top: 145rem;
                 }
                 .javascript,
                 .git{
