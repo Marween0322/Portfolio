@@ -323,7 +323,7 @@ nav.scrolled {
 
 .content-section .right img {
     position: absolute;
-    top: 22%; /* Adjust as needed */
+    top: 25%; /* Adjust as needed */
     left: 58%; /* Adjust as needed */
     width: 28rem; /* Adjust as needed */
     box-shadow: 0px 0px 0px 10px #ffffff;
@@ -1176,9 +1176,12 @@ nav.mobile-nav, .mobile-menu-container{
                     margin-top: 20%;
                     margin-left: -10px;
                 }
+                .content-section .left {
+                    margin-top: -10%;
+                }
                 .content-section .right img{
                     width: 25rem;
-                    margin-top: 2%;
+                    margin-top: 20%;
                     margin-left: 1%;
                 }
                 .skills-section{
@@ -1460,7 +1463,7 @@ nav.mobile-nav, .mobile-menu-container{
                 position: absolute;
                 top: -20rem;
                 left: 2rem;
-                border-radius: 0px 0px 100px 100px;
+                border-radius: 0px 0px 40px 40px;
                 background-color: #051f3e;
                 width: 104%;
                 height: 820px;
@@ -1473,6 +1476,7 @@ nav.mobile-nav, .mobile-menu-container{
                     width: 100%;
                 }
                 .content-section .left {
+                    width: 80%;
                     margin-top: -16rem;
                     margin-left: 10rem;
                 }
@@ -1485,14 +1489,14 @@ nav.mobile-nav, .mobile-menu-container{
                 .content-section .left p {
                     margin-top: -40px;
                     font-size: 16px;
-                    width: 350px;
+                    width: 320px;
                 }
                 
                 .content-section .right img {
                     height: auto;
                     max-width: 65%;
                     margin-left: 50px;
-                    margin-top: -250px;
+                    margin-top: -100px;
                 }
                 .skills-section{
                     margin-left: -3rem;
@@ -1710,10 +1714,10 @@ nav.mobile-nav, .mobile-menu-container{
             .background {
                 position: absolute;
                 top: -20rem;
-                left: 10rem;
+                left: 34%;
                 border-radius: 0px 0px 40px 40px;
                 background-color: #051f3e;
-                width: 87.8%;
+                width: 25.9rem;
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
             }
@@ -1739,7 +1743,7 @@ nav.mobile-nav, .mobile-menu-container{
                 .content-section .right img{
                     max-width: 18rem;
                     margin-left: 9.5rem;
-                    top: 38rem;
+                    top: 29rem;
                 }
                 .php,
                 .github{
@@ -1860,7 +1864,7 @@ nav.mobile-nav, .mobile-menu-container{
                 margin-left: -20rem;
             }
                 .content-section .right img{
-                    margin-top: -15rem;
+                    margin-top: -5rem;
                 }
                 .content-section .left .welcome{
                     font-size: 20px;
