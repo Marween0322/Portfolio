@@ -1177,11 +1177,11 @@ nav.mobile-nav, .mobile-menu-container{
                     margin-left: -10px;
                 }
                 .content-section .left {
-                    margin-top: -10%;
+                    margin-top: -20rem;
                 }
                 .content-section .right img{
                     width: 25rem;
-                    margin-top: 20%;
+                    margin-top: 1rem;
                     margin-left: 1%;
                 }
                 .skills-section{
@@ -1714,10 +1714,10 @@ nav.mobile-nav, .mobile-menu-container{
             .background {
                 position: absolute;
                 top: -20rem;
-                left: 34%;
-                border-radius: 0px 0px 40px 40px;
+                left: 8rem;
+                border-radius: 0px 0px 70px 80px;
                 background-color: #051f3e;
-                width: 25.9rem;
+                width: 27.9rem;
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
             }
@@ -1742,7 +1742,7 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 .content-section .right img{
                     max-width: 18rem;
-                    margin-left: 9.5rem;
+                    margin-left: 9.2rem;
                     top: 29rem;
                 }
                 .php,
