@@ -1228,7 +1228,7 @@ nav.mobile-nav, .mobile-menu-container{
                     left: -9rem;
                     border-radius: 0px 0px 100px 100px;
                     background-color: #051f3e;
-                    width: 60.9rem;
+                    width: 61.9rem;
                     height: 820px;
                     z-index: -1; /* Place the background behind other content */
                 }
@@ -1831,10 +1831,10 @@ nav.mobile-nav, .mobile-menu-container{
             .background {
                 position: absolute;
                 top: -20rem;
-                left: 8rem;
-                border-radius: 0px 0px 60px 80px;
+                left: 9.9rem;
+                border-radius: 0px 0px 40px 40px;
                 background-color: #051f3e;
-                width: 29rem;
+                width: 28.1rem;
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
             }
@@ -1983,10 +1983,10 @@ nav.mobile-nav, .mobile-menu-container{
             .background {
                 position: absolute;
                 top: -20rem;
-                left: 10rem;
+                left: 10.3rem;
                 border-radius: 0px 0px 40px 40px;
                 background-color: #051f3e;
-                width: 90%;
+                width: 24.1rem;
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
             }
