@@ -1834,7 +1834,7 @@ nav.mobile-nav, .mobile-menu-container{
                 left: 9.4rem;
                 border-radius: 0px 0px 40px 40px;
                 background-color: #051f3e;
-                width: 28.1rem;
+                width: 26.7rem;
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
             }
@@ -1932,10 +1932,10 @@ nav.mobile-nav, .mobile-menu-container{
                     width: 50%;
     
                 }
-            }
-            .content__container{
+                }
+                .content__container{
                 margin-left: 1px;
-            }
+                    }
             }
             @media only screen and (max-width: 380px) {
                 nav {
