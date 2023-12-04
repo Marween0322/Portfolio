@@ -33,7 +33,7 @@ body{
     left: -20%;
     border-radius: 0px 70px 70px 0px;
     background-color: #051f3e;
-    width: 95%;
+    width: 95rem;
     height: 800px;
     z-index: -1; /* Place the background behind other content */
 }
@@ -317,10 +317,8 @@ nav.scrolled {
     text-align: left;
     width: 321px;
     height: 38px;
-        
-        
+    margin-left: 3px;
 }
-
 .content-section .right img {
     position: absolute;
     top: 25%; /* Adjust as needed */
@@ -364,12 +362,7 @@ nav.scrolled {
     animation: opacity 2s infinite;
   }
 
-  .content__container__text {
-    display: inline;
-    float: left;
-    margin: 0;
-    animation: changeText 10s infinite;
-  }
+
 
   .content__container__list {
     margin-top: 0;
@@ -377,23 +370,24 @@ nav.scrolled {
     text-align: left;
     list-style: none;
     animation: change 10s infinite;
+    
   }
 
   .content__container__list__item {
     line-height: 80px;
-    margin-left: -40px;
+    margin-left: -20px;
   }
 
   @keyframes opacity {
     0%, 100% {
       opacity: 0;
-      width: -60%;
-      margin-left: -20px;
+      width: -70%;
+      
       margin-top: 7px;
     }
     50% {
       opacity: 1;
-      width: -60%;
+      width: -70%;
     }
     
   }
@@ -424,10 +418,10 @@ nav.scrolled {
 .content-section .left h1{
     display: flex;
     font-family: 'Poppins', sans-serif;
-    font-size: 60px;
+    font-size: 61.5px;
     text-align: left;
-    width: 180%;
-    
+    width: 100%;
+    margin-left: 3px;
     color: #55e8ff;
     margin-bottom: 0;
     margin-top: 0;
@@ -461,9 +455,10 @@ nav.scrolled {
     display: inline-block;
     width: 496px;
     height: 194px;
+    margin-left: 8px;
 }
 .content-section .left {
-    width: 500px;
+    width: 515px;
 }
 
 .skills-section{
@@ -964,7 +959,7 @@ nav.mobile-nav, .mobile-menu-container{
                     left: -20%;
                     border-radius: 0px 70px 70px 0px;
                     background-color: #051f3e;
-                    width: 102%;
+                    width: 78rem;
                     height: 650px;
                     z-index: -1; /* Place the background behind other content */
                 }
@@ -1008,10 +1003,10 @@ nav.mobile-nav, .mobile-menu-container{
                 .background {
                     position: absolute;
                     top: -25px;
-                    left: -21%;
+                    left: -24%;
                     border-radius: 0px 0px 100px 100px;
                     background-color: #051f3e;
-                    width: 120%;
+                    width: 66.5rem;
                     height: 820px;
                     z-index: -1; /* Place the background behind other content */
                 }
@@ -1064,9 +1059,10 @@ nav.mobile-nav, .mobile-menu-container{
                .content-section{
                 margin-left: 20px;
                 margin-top: 160px;
+                width: 78%;
                }
                 .content-section .left{
-                    margin-top: -290px;
+                    margin-top: -350px;
                     margin-left: 110px;
                 }
                 .content-section .left h1{
@@ -1094,7 +1090,7 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 .content-section .right img {
                     position: absolute;
-                    top: 70%; /* Adjust as needed */
+                    top: 65%; /* Adjust as needed */
                     left: 15%; /* Adjust as needed */
                     width: 25rem; /* Adjust as needed */
                 }
@@ -1232,7 +1228,7 @@ nav.mobile-nav, .mobile-menu-container{
                     left: -9rem;
                     border-radius: 0px 0px 100px 100px;
                     background-color: #051f3e;
-                    width: 119%;
+                    width: 60.9rem;
                     height: 820px;
                     z-index: -1; /* Place the background behind other content */
                 }
@@ -1394,7 +1390,7 @@ nav.mobile-nav, .mobile-menu-container{
                     left: -1.5rem;
                     border-radius: 0px 0px 100px 100px;
                     background-color: #051f3e;
-                    width: 117.9%;
+                    width: 49rem;
                     height: 820px;
                     z-index: -1; /* Place the background behind other content */
                 }
@@ -1571,45 +1567,57 @@ nav.mobile-nav, .mobile-menu-container{
             .background {
                 position: absolute;
                 top: -20rem;
-                left: 2rem;
+                left: 2.5rem;
                 border-radius: 0px 0px 40px 40px;
                 background-color: #051f3e;
-                width: 104%;
+                width: 31.2rem;
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
             }
                 .content-section {
                     margin-top: 95%;
                     flex-direction: column;
-                    margin-left: -190px;
+                    margin-left: -200px;
                     width: 100%;
                 }
                 .content-section .left {
                     width: 80%;
                     margin-top: -16rem;
-                    margin-left: 10rem;
+                    margin-left: rem;
+                }
+                .content__container__list .content__container__list__item{
+                    font-size: 43px;
+                    width: 50%;
+                }
+                .welcome{
+                    margin-left: 20px;
+                }
+                .content__container{
+                    margin-top: -90px;
                 }
                 .content-section .left h1 {
                     display: flex;
                     font-size: 42px;
                     width: 350px;
                     height: 162px;
+                    margin-left: 20px;
                 }
                 .content-section .left p {
-                    margin-top: -40px;
+                    margin-top: 20px;
                     font-size: 16px;
                     width: 320px;
+                    margin-left: 20px;
                 }
                 
                 .content-section .right img {
                     height: auto;
                     max-width: 65%;
-                    margin-left: 50px;
-                    margin-top: -100px;
+                    margin-left: 3.8rem;
+                    margin-top: -15rem;
                 }
                 .skills-section{
                     margin-left: -3rem;
-                    margin-top: -10rem;
+                    margin-top: -5rem;
                 }
                 .skills{
                     margin-left: -10px;
@@ -1824,24 +1832,34 @@ nav.mobile-nav, .mobile-menu-container{
                 position: absolute;
                 top: -20rem;
                 left: 8rem;
-                border-radius: 0px 0px 70px 80px;
+                border-radius: 0px 0px 60px 80px;
                 background-color: #051f3e;
-                width: 27.9rem;
+                width: 29rem;
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
+            }
+
+            .content__container{
+                width: 130%;
             }
                 .content-section {
                     margin-top: 28rem;
                     margin-left: -75%;
                     width: 114%;
-
+                }
+                .content__container__list .content__container__list__item{
+                    font-size: 43px;
+                    width: 50%;
                 }
                 .content-section .left{
                     width: 50%;
                 }
-                
+                .btndark{
+                    margin-left: 20px;
+                }
                 .joblink{
                     width: 80%;
+                    margin-left: 12rem;
                 }
                 .content-section .left p{
                     display: flex;
@@ -1852,11 +1870,14 @@ nav.mobile-nav, .mobile-menu-container{
                 .content-section .right img{
                     max-width: 18rem;
                     margin-left: 9.2rem;
-                    top: 29rem;
+                    top: 38rem;
                 }
                 .php,
                 .github{
                     margin-left: 32%;
+                }
+                .tailwindcss{
+                    font-size: 8px;
                 }
                 .skills-section{
                     margin-top: -10rem;
@@ -1969,27 +1990,36 @@ nav.mobile-nav, .mobile-menu-container{
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
             }
+            .content__container__list .content__container__list__item{
+                font-size: 40px;
+                width: 50%;
+
+            }
+            .content__container{
+                margin-left: 10px;
+            }
             .content-section{
                 margin-left: -20rem;
             }
                 .content-section .right img{
-                    margin-top: -5rem;
+                    margin-top: -15rem;
                 }
                 .content-section .left .welcome{
                     font-size: 20px;
                 }
                 .content-section .left p{
                     padding: 0 10px;
-                    margin-top: -30px;
+                    margin-top: 20px;
                     font-size: 14px;
                 }
                 .content-section .left .btndark{
-                    margin-left: 1rem;
+                    margin-left: 2rem;
                     font-size: 13px;
                 }
                 .joblink{
                     margin-top: -41px;
                     width: 85%;
+                    margin-left: 10rem;
                     
                 }
             
@@ -2022,7 +2052,7 @@ nav.mobile-nav, .mobile-menu-container{
                 .pgadmin, 
                 .git, 
                 .github{
-                font-size: 40%;
+                font-size: 38%;
                 padding: 15px 5px;
                 padding-top: 8px;
                 width: 35%;
