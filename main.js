@@ -7,6 +7,25 @@
     const closeIcon = document.querySelector('.mobile-menu-container .close-icon');
     const mobileMenuContainer = document.querySelector('.mobile-menu-container');
 
+    document.addEventListener('DOMContentLoaded', function () {
+        const textContainer = document.querySelector('.content__container__text');
+        const listItems = document.querySelectorAll('.content__container__list__item');
+    
+        setInterval(function () {
+          // Toggle visibility of text items
+          textContainer.style.opacity = 0;
+          setTimeout(function () {
+            textContainer.textContent = textContainer.textContent === 'UI/UX DESIGNER' ? 'WEB DEVELOPER' : 'UI/UX DESIGNER';
+            textContainer.style.opacity = 1;
+          }, 1000); // Adjust the delay as needed
+    
+          // Toggle visibility of list items
+          listItems.forEach(function (item) {
+            item.style.display = item.style.display === 'none' ? 'block' : 'none';
+          });
+        }, 3000); // Adjust the interval as needed
+      });      
+        
 
 window.addEventListener('scroll', function () {
 
@@ -43,3 +62,5 @@ function scrollToSection(linkId, sectionId) {
 scrollToSection('about-link', 'about-section');
 scrollToSection('skills-link', 'skills-section');
 scrollToSection('myprojects-link', 'myprojects-section');
+
+
