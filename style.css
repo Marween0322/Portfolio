@@ -1831,10 +1831,10 @@ nav.mobile-nav, .mobile-menu-container{
             .background {
                 position: absolute;
                 top: -20rem;
-                left: 9.4rem;
+                left: 9.6rem;
                 border-radius: 0px 0px 40px 40px;
                 background-color: #051f3e;
-                width: 26.5rem;
+                width: 26.3rem;
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
             }
