@@ -1916,17 +1916,25 @@ nav.mobile-nav, .mobile-menu-container{
                 height: 28rem;
                 }
                 
-            @media only screen and (max-width: 400px) {
+            @media only screen and (max-width: 390px) {
                 .background {
                     position: absolute;
                     top: -20rem;
-                    left: 9.2rem;
+                    left: 8.8rem;
                     border-radius: 0px 0px 40px 40px;
                     background-color: #051f3e;
-                    width: 26rem;
+                    width: 25rem;
                     height: 820px;
                     z-index: -1; /* Place the background behind other content */
                 }
+                .content__container__list .content__container__list__item{
+                    font-size: 40px;
+                    width: 50%;
+    
+                }
+            }
+            .content__container{
+                margin-left: 1px;
             }
             }
             @media only screen and (max-width: 380px) {
