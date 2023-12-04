@@ -1390,7 +1390,7 @@ nav.mobile-nav, .mobile-menu-container{
                     left: -1.5rem;
                     border-radius: 0px 0px 100px 100px;
                     background-color: #051f3e;
-                    width: 49rem;
+                    width: 48.2rem;
                     height: 820px;
                     z-index: -1; /* Place the background behind other content */
                 }
