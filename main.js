@@ -62,5 +62,6 @@ function scrollToSection(linkId, sectionId) {
 scrollToSection('about-link', 'about-section');
 scrollToSection('skills-link', 'skills-section');
 scrollToSection('myprojects-link', 'myprojects-section');
+scrollToSection('mycontact-link', 'mycontact-section');
 
 
