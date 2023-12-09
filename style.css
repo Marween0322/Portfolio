@@ -2101,6 +2101,30 @@ nav.mobile-nav, .mobile-menu-container{
                 width: 20rem;
                 height: 28rem;
                 }
+                footer{
+                    width: 414px;
+                }
+                .line-div {
+                    position: relative;
+                    border-right: 1px solid #fff;
+                    box-sizing: border-box;
+                    height: 180px;
+                    margin-left: -8rem;
+                    margin-top: -12rem;
+                    }
+            
+                    .footer-link {
+                        margin-left: 12rem;
+                        margin-top: -55%;
+                        width: 40%;
+                        
+                    }
+                    .footer-link img {
+                        width: 25%;
+                        margin-left: 1rem;
+                        margin-top: 1rem;
+                    }
+                }
                 
             @media only screen and (max-width: 390px) {
                 .background {
@@ -2118,11 +2142,13 @@ nav.mobile-nav, .mobile-menu-container{
                     width: 50%;
     
                 }
-                }
+                
                 .content__container{
                 margin-left: 1px;
                     }
-                    
+                    footer{
+                        width: 398px;
+                    }
                     .line-div {
                         position: relative;
                         border-right: 1px solid #fff;
@@ -2300,6 +2326,9 @@ nav.mobile-nav, .mobile-menu-container{
             .pgadmin{
                 margin-left: 70px;
 
+            }
+            footer{
+                width: 388px;
             }
             .line-div {
                 position: relative;
