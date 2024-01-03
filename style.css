@@ -33,7 +33,7 @@ body{
     left: -20%;
     border-radius: 0px 70px 70px 0px;
     background-color: #051f3e;
-    width: 100rem;
+    width: 95rem;
     height: 800px;
     z-index: -1; /* Place the background behind other content */
 }
@@ -1055,6 +1055,7 @@ nav.mobile-nav, .mobile-menu-container{
                 .skills-section img{
                     margin-top: 1px;
                 }
+<<<<<<< HEAD
 
                 .footerbtn {
                     margin-left: 35rem;
@@ -1075,6 +1076,22 @@ nav.mobile-nav, .mobile-menu-container{
                     /* Increase glow on hover */
                     filter: drop-shadow(0 0 10px rgb(3, 230, 255));
                 }
+=======
+                .line-div {
+                    position: relative;
+                    border-right: 1px solid #fff;
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 270px;
+                    margin-left: -30rem;
+                    margin-top: -15rem;
+                    }
+            
+                    .footer-link {
+                        margin-left: 40rem;
+                        margin-top: -15%;
+                    }
+>>>>>>> aec3be20506869b9a7548d9ce3f360fa26defd50
             }
             @media only screen and (max-width: 1024px) {
                 nav {
@@ -1293,6 +1310,7 @@ nav.mobile-nav, .mobile-menu-container{
                 padding-top: 7%;
                 font-size: 20px;
             }
+<<<<<<< HEAD
             
             .footerbtn {
                 margin-left: 35rem;
@@ -1323,6 +1341,29 @@ nav.mobile-nav, .mobile-menu-container{
                 /* Increase glow on hover */
                 filter: drop-shadow(0 0 10px rgb(3, 230, 255));
             }
+=======
+            footer{
+                width: 102%;
+            }
+            .footer-info{
+                font-size: 15px;
+                margin-top: -40px;
+            }
+            .line-div {
+                position: relative;
+                border-right: 1px solid #fff;
+                box-sizing: border-box;
+                width: 100%;
+                height: 220px;
+                margin-left: -22rem;
+                margin-top: -15rem;
+                }
+        
+                .footer-link {
+                    margin-left: 26rem;
+                    margin-top: -21%;
+                }
+>>>>>>> aec3be20506869b9a7548d9ce3f360fa26defd50
             }
             
             @media only screen and (max-width: 980px) {
@@ -1484,6 +1525,28 @@ nav.mobile-nav, .mobile-menu-container{
                     padding-top: 7%;
                     font-size: 18px;
                 }
+                .footer-title{
+                    font-size: 35px;
+                }
+                .footer-info{
+                    font-size: 15px;
+                    margin-top: -30px;
+                }  
+                
+                .line-div {
+                    position: relative;
+                    border-right: 1px solid #fff;
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 230px;
+                    margin-left: -21rem;
+                    margin-top: -13rem;
+                    }
+            
+                    .footer-link {
+                        margin-left: 26rem;
+                        margin-top: -20%;
+                    }
             }
 
             @media only screen and (max-width: 768px) {
@@ -1612,11 +1675,33 @@ nav.mobile-nav, .mobile-menu-container{
                 margin-left: 10%;
                 width: 25rem;
                 }
-                
+                footer{
+                    top: 25rem;
+                }
                 .projects-card2{
                 margin-top: 42rem;
                 margin-left: -15rem;
                 }
+                .footer-info{
+                    font-size: 80%;
+                }
+                
+                .line-div {
+                    position: relative;
+                    border-right: 1px solid #fff;
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 230px;
+                    margin-left: -16rem;
+                    margin-top: -13rem;
+                    }
+            
+                    .footer-link {
+                        margin-left: 19rem;
+                        margin-top: -25%;
+                        width: 51%;
+                        
+                    }
             
             }
 
@@ -1692,7 +1777,7 @@ nav.mobile-nav, .mobile-menu-container{
                 left: 2.5rem;
                 border-radius: 0px 0px 40px 40px;
                 background-color: #051f3e;
-                width: 31.2rem;
+                width: 31.3rem;
                 height: 820px;
                 z-index: -1; /* Place the background behind other content */
             }
@@ -1884,6 +1969,42 @@ nav.mobile-nav, .mobile-menu-container{
                 height: 30%;
                 width: 92%;
             }
+            .footer-title{
+                margin-left: -10%;
+            }
+            .footer-info{
+                font-size: 60%;
+                margin-left: -10%;
+            }
+            footer{
+                height: 1%;
+                top: -10%;
+                width: 102.2%;
+                left: 0%;
+            }
+            .line-div {
+                position: relative;
+                border-right: 1px solid #fff;
+                box-sizing: border-box;
+                height: 150px;
+                margin-left: -10rem;
+                margin-top: -10rem;
+                }
+        
+                .footer-link {
+                    margin-left: 14rem;
+                    margin-top: -35%;
+                    width: 40%;
+                    
+                }
+                .footerlink{
+                    width: 100%;
+                }
+                .footer-link img {
+                    width: 20%;
+                    margin-left: 1rem;
+                    margin-top: 1rem;
+                }
         
                 /* Adjust other styles as needed for smaller screens */
             }
@@ -2037,6 +2158,30 @@ nav.mobile-nav, .mobile-menu-container{
                 width: 20rem;
                 height: 28rem;
                 }
+                footer{
+                    width: 414px;
+                }
+                .line-div {
+                    position: relative;
+                    border-right: 1px solid #fff;
+                    box-sizing: border-box;
+                    height: 180px;
+                    margin-left: -8rem;
+                    margin-top: -12rem;
+                    }
+            
+                    .footer-link {
+                        margin-left: 12rem;
+                        margin-top: -55%;
+                        width: 40%;
+                        
+                    }
+                    .footer-link img {
+                        width: 25%;
+                        margin-left: 1rem;
+                        margin-top: 1rem;
+                    }
+                }
                 
             @media only screen and (max-width: 390px) {
                 .background {
@@ -2054,10 +2199,33 @@ nav.mobile-nav, .mobile-menu-container{
                     width: 50%;
     
                 }
-                }
+                
                 .content__container{
                 margin-left: 1px;
                     }
+                    footer{
+                        width: 398px;
+                    }
+                    .line-div {
+                        position: relative;
+                        border-right: 1px solid #fff;
+                        box-sizing: border-box;
+                        height: 180px;
+                        margin-left: -7rem;
+                        margin-top: -12rem;
+                        }
+                
+                        .footer-link {
+                            margin-left: 12rem;
+                            margin-top: -55%;
+                            width: 40%;
+                            
+                        }
+                        .footer-link img {
+                            width: 25%;
+                            margin-left: 1rem;
+                            margin-top: 1rem;
+                        }
             }
             @media only screen and (max-width: 380px) {
                 nav {
@@ -2216,4 +2384,27 @@ nav.mobile-nav, .mobile-menu-container{
                 margin-left: 70px;
 
             }
+            footer{
+                width: 388px;
+            }
+            .line-div {
+                position: relative;
+                border-right: 1px solid #fff;
+                box-sizing: border-box;
+                height: 180px;
+                margin-left: -7rem;
+                margin-top: -12rem;
+                }
+        
+                .footer-link {
+                    margin-left: 12rem;
+                    margin-top: -55%;
+                    width: 40%;
+                    
+                }
+                .footer-link img {
+                    width: 25%;
+                    margin-left: 1rem;
+                    margin-top: 1rem;
+                }
         }
