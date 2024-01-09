@@ -1338,7 +1338,7 @@ nav.mobile-nav, .mobile-menu-container{
             }
             .footer-info{
                 font-size: 15px;
-                margin-top: -40px;
+                margin-top: -10px;
             }
             .line-div {
                 position: relative;
@@ -1520,7 +1520,7 @@ nav.mobile-nav, .mobile-menu-container{
                 }
                 .footer-info{
                     font-size: 15px;
-                    margin-top: -30px;
+                    margin-top: -10px;
                 }  
                 
                 .line-div {
